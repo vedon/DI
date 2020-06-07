@@ -1,0 +1,16 @@
+PODS:
+  - Feature3 (0.1.0)
+
+DEPENDENCIES:
+  - Feature3 (from `../`)
+
+EXTERNAL SOURCES:
+  Feature3:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Feature3: 2e50885be1f4abe4e856fb71c3e849bf3a2aca05
+
+PODFILE CHECKSUM: efd44255aa5ab366c3e57aa5c6374ec7cb7c7594
+
+COCOAPODS: 1.9.1

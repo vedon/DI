@@ -1,0 +1,35 @@
+PODS:
+  - Feature1 (0.1.0):
+    - Feature3
+  - Feature2 (0.1.0):
+    - Feature1
+    - Feature3
+  - Feature3 (0.1.0):
+    - UserSession
+  - UserSession (0.1.0)
+
+DEPENDENCIES:
+  - Feature1 (from `./DI/DevPods/Feature1/`)
+  - Feature2 (from `./DI/DevPods/Feature2/`)
+  - Feature3 (from `./DI/DevPods/Feature3/`)
+  - UserSession (from `./DI/DevPods/UserSession/`)
+
+EXTERNAL SOURCES:
+  Feature1:
+    :path: "./DI/DevPods/Feature1/"
+  Feature2:
+    :path: "./DI/DevPods/Feature2/"
+  Feature3:
+    :path: "./DI/DevPods/Feature3/"
+  UserSession:
+    :path: "./DI/DevPods/UserSession/"
+
+SPEC CHECKSUMS:
+  Feature1: c8870e50ad089a3e81fd64a3fc410455c7f2cfc0
+  Feature2: eef6613ccc622b0f4011f850a7218d03c91a315b
+  Feature3: 01c14130e731341320a89366cdc3d9f5297c7a35
+  UserSession: bd6b2fd51b424f28a406187d3bc2ff8d28b26597
+
+PODFILE CHECKSUM: fe22ab3c5ac00b172cf8a66923cb8a2f2412d54b
+
+COCOAPODS: 1.9.1
