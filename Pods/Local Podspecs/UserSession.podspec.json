@@ -18,5 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "UserSession/Classes/**/*"
+  "source_files": "UserSession/Classes/**/*",
+  "default_subspecs": "Service",
+  "subspecs": [
+    {
+      "name": "Service",
+      "source_files": "UserSession/Service/**/*"
+    }
+  ]
 }

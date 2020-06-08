@@ -31,12 +31,17 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Feature3/Classes/**/*'
-  
+
+  s.default_subspecs = 'Service'
+  s.subspec 'Service' do |ss|
+    ss.source_files = 'Feature3/Service/**/*'
+    ss.dependency 'UserSession/Service'
+  end
   # s.resource_bundles = {
   #   'Feature3' => ['Feature3/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'UserSession'
+  #s.dependency 'UserSession'
 end

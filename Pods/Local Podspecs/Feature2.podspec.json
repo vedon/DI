@@ -19,12 +19,19 @@
     "ios": "8.0"
   },
   "source_files": "Feature2/Classes/**/*",
-  "dependencies": {
-    "Feature1": [
+  "default_subspecs": "Service",
+  "subspecs": [
+    {
+      "name": "Service",
+      "source_files": "Feature2/Service/**/*",
+      "dependencies": {
+        "Feature1": [
 
-    ],
-    "Feature3": [
+        ],
+        "Feature3/Service": [
 
-    ]
-  }
+        ]
+      }
+    }
+  ]
 }

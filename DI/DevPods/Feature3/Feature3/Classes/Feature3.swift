@@ -8,6 +8,10 @@
 import Foundation
 import UserSession
 
+public protocol Feature1Protocol {
+    
+}
+
 public class Feature3 {
     private let user: UserSession
     

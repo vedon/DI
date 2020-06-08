@@ -19,9 +19,16 @@
     "ios": "8.0"
   },
   "source_files": "Feature3/Classes/**/*",
-  "dependencies": {
-    "UserSession": [
+  "default_subspecs": "Service",
+  "subspecs": [
+    {
+      "name": "Service",
+      "source_files": "Feature3/Service/**/*",
+      "dependencies": {
+        "UserSession/Service": [
 
-    ]
-  }
+        ]
+      }
+    }
+  ]
 }

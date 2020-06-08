@@ -18,10 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Feature1/Classes/**/*",
-  "dependencies": {
-    "Feature3": [
-
-    ]
-  }
+  "module_map": "Module.modulemap",
+  "source_files": "*/**/*.{h,m,swift}"
 }

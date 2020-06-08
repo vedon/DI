@@ -30,7 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Feature1/Classes/**/*'
+  #s.source_files = 'Feature1/Classes/**/*'
+  #s.preserve_path = 'Feature1/Module/Module.modulemap'
+  #s.module_map = 'Feature1/Module/Module.modulemap'
+  s.module_map = "Module.modulemap"
+  s.source_files = "*/**/*.{h,m,swift}"
+  
+#  s.subspec 'Service' do |ss|
+#    ss.source_files = 'Feature1/Classes/Service/**/*'
+#  end
+#
+#  s.subspec 'API' do |ss|
+#    ss.source_files = 'Feature1/Classes/API/**/*'
+#  end
   
   # s.resource_bundles = {
   #   'Feature1' => ['Feature1/Assets/*.png']
@@ -38,5 +50,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Feature3'
+  #s.dependency 'Feature3'
 end

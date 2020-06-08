@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct PrivateModel {
-    
+public struct PrivateModel {
+    public init() {}
 }
 
-public class Feature1 {
-    public init() {}
+private class Feature1 {
+    init() {}
     
-    public func doSomething() {
+    func doSomething() {
         print("Feature1 do something")
     }
 }

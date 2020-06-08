@@ -6,23 +6,25 @@
 //
 
 import Foundation
-import Feature1
+import Feature1ServiceP
 import Feature3
 
 public class Feature2 {
-    private let feature1: Feature1
+    private var feature1: Feature1Service?
     private let feature3: Feature3
     
     public init() {
-        self.feature1 = Feature1()
         self.feature3 = Feature3()
+        PrivateModel()
+        
     }
     
     public func doSomething() {
         print("Feature2 do something")
         
-        feature1.doSomething()
-        
+//        feature1?.doSomething()
+
+        feature1?.doSomething()
         feature3.doSomething()
     }
 }

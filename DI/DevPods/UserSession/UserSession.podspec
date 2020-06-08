@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'UserSession/Classes/**/*'
+  s.default_subspecs = 'Service'
+  s.subspec 'Service' do |ss|
+    ss.source_files = 'UserSession/Service/**/*'
+  end
   
   # s.resource_bundles = {
   #   'UserSession' => ['UserSession/Assets/*.png']

@@ -7,6 +7,10 @@
 
 import Foundation
 
+public protocol UserSessionProtocol {
+    
+}
+
 public class UserSession {
     public init() {}
     
