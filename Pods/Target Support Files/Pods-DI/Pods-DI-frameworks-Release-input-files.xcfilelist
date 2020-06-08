@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-DI/Pods-DI-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DICoordinator/DICoordinator.framework
 ${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework
 ${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework
 ${BUILT_PRODUCTS_DIR}/Feature3/Feature3.framework

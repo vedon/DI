@@ -1,0 +1,16 @@
+PODS:
+  - DICoordinator (0.1.0)
+
+DEPENDENCIES:
+  - DICoordinator (from `../`)
+
+EXTERNAL SOURCES:
+  DICoordinator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DICoordinator: 4e8b6a65407ff01d8019b1e79d0a3064410a41a3
+
+PODFILE CHECKSUM: ac217506eec7f9a74870a2c5f4a54747842cf14b
+
+COCOAPODS: 1.9.1

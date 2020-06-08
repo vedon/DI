@@ -1,20 +1,23 @@
 PODS:
+  - DICoordinator (0.1.0)
   - Feature1 (0.1.0):
-    - Feature3
+    - DICoordinator
   - Feature2 (0.1.0):
-    - Feature1
-    - Feature3
+    - DICoordinator
   - Feature3 (0.1.0):
     - UserSession
   - UserSession (0.1.0)
 
 DEPENDENCIES:
+  - DICoordinator (from `./DI/DevPods/DICoordinator/`)
   - Feature1 (from `./DI/DevPods/Feature1/`)
   - Feature2 (from `./DI/DevPods/Feature2/`)
   - Feature3 (from `./DI/DevPods/Feature3/`)
   - UserSession (from `./DI/DevPods/UserSession/`)
 
 EXTERNAL SOURCES:
+  DICoordinator:
+    :path: "./DI/DevPods/DICoordinator/"
   Feature1:
     :path: "./DI/DevPods/Feature1/"
   Feature2:
@@ -25,11 +28,12 @@ EXTERNAL SOURCES:
     :path: "./DI/DevPods/UserSession/"
 
 SPEC CHECKSUMS:
-  Feature1: c8870e50ad089a3e81fd64a3fc410455c7f2cfc0
-  Feature2: eef6613ccc622b0f4011f850a7218d03c91a315b
+  DICoordinator: 4e8b6a65407ff01d8019b1e79d0a3064410a41a3
+  Feature1: c59b89d1cc9394bf443e6560e6ad15cb6693578c
+  Feature2: 595f9716e03f29fac8d3040f66a0a5e96d38ded1
   Feature3: 01c14130e731341320a89366cdc3d9f5297c7a35
   UserSession: bd6b2fd51b424f28a406187d3bc2ff8d28b26597
 
-PODFILE CHECKSUM: fe22ab3c5ac00b172cf8a66923cb8a2f2412d54b
+PODFILE CHECKSUM: 3aff9878398f25575200a3a41ae75fbe26901e9f
 
 COCOAPODS: 1.9.1

@@ -6,16 +6,17 @@
 //
 
 import Foundation
-import Feature1
-import Feature3
+//import Feature1
+//import Feature3
+import DICoordinator
 
 public class Feature2 {
-    private let feature1: Feature1
-    private let feature3: Feature3
+    private let feature1: Feature1Service
+    private let feature3: Feature3Service
     
-    public init() {
-        self.feature1 = Feature1()
-        self.feature3 = Feature3()
+    public init(feature1: Feature1Service, feature3: Feature3Service) {
+        self.feature1 = feature1
+        self.feature3 = feature3
     }
     
     public func doSomething() {

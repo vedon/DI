@@ -10,6 +10,7 @@ target 'DI' do
   
   pod 'Feature3',    :path => './DI/DevPods/Feature3/'
   pod 'UserSession',    :path => './DI/DevPods/UserSession/'
+  pod 'DICoordinator',    :path => './DI/DevPods/DICoordinator/'
 
   # Pods for DI
 

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import DICoordinator
 
 struct PrivateModel {
     
@@ -13,7 +14,9 @@ struct PrivateModel {
 
 public class Feature1 {
     public init() {}
-    
+}
+
+extension Feature1: Feature1Service {
     public func doSomething() {
         print("Feature1 do something")
     }

@@ -20,10 +20,7 @@
   },
   "source_files": "Feature2/Classes/**/*",
   "dependencies": {
-    "Feature1": [
-
-    ],
-    "Feature3": [
+    "DICoordinator": [
 
     ]
   }

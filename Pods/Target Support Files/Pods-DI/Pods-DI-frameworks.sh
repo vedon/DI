@@ -197,12 +197,14 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DICoordinator/DICoordinator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature3/Feature3.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UserSession/UserSession.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DICoordinator/DICoordinator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature3/Feature3.framework"
