@@ -7,8 +7,8 @@
 
 import Foundation
 
-public struct PrivateModel {
-    public init() {}
+struct PrivateModel {
+ init() {}
 }
 
 private class Feature1 {

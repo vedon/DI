@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01394E8AE9CEAC7593E2D0375291C0B9 /* UserSession-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4342B9AE726CF6AB09C37E2573F0618C /* UserSession-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CF05ED9B5A77DEF421690DCF397F74C /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 3918564FC78F217DDDD42F72920489B6 /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1434419FFC2337FAD9D32E1DC930FADB /* Feature3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00E5DFD2E359BF1DE96A923F641316C /* Feature3.framework */; };
 		158FCF7E1D6A1F46340C0228DAA3D6A8 /* Feature3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4404AC0C6C88DA103DE43BFEEE75E6CB /* Feature3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4B7556BF18B4AB4AC7E9A81AF10D67 /* Feature1.h in Headers */ = {isa = PBXBuildFile; fileRef = 017D807923176FAF93FF3827F0B79952 /* Feature1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		242D721014E7DD056818FFBE26FC7BB7 /* Feature1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93A1827F40B15E5ADE94338628D6CE1 /* Feature1.swift */; };
-		2ADBB700FC3B4067C89F6093A279F5BC /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = C97BBF74CA1EF00AC16E6426393EB5B4 /* API.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242D721014E7DD056818FFBE26FC7BB7 /* Feature1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2C753F910FCACF53FD89CACE8FFE9 /* Feature1.swift */; };
 		3102D8DB281C1649281BE07413D2A7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA2553FEF81CD16774BCFC00A25E978 /* Foundation.framework */; };
 		3E739CEB51EABD487ED593F188E1D58B /* Pods-DITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A106C0C3264B3BA063F320A5D4E88E39 /* Pods-DITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4365E431828E0DE056B6B0BE3D0CDA03 /* Feature2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7433D97EA5CF1D16D7B5C70869BA2BD0 /* Feature2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,14 +21,17 @@
 		5AA21D85560E842E316DCE9252C9DB1A /* UserSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F2063FF74030B2B6525C67EA51D8B3 /* UserSession.framework */; };
 		66A12C2E66A07AFE6F0169EB997353B0 /* Feature3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE16D3DB6205EDAC21E853286514CFD /* Feature3-dummy.m */; };
 		695240CA36E96062499B59B6248CB626 /* Feature2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AC7F46BD92D23200FDC56311A1B83 /* Feature2-dummy.m */; };
-		6A644449ED52AB960E6414F005D52434 /* FeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187E5DE480D8A13E45DBE3DA360BB7D /* FeatureService.swift */; };
+		6A644449ED52AB960E6414F005D52434 /* FeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BDCFE75F51F0D228F9B2D14435DC0B /* FeatureService.swift */; };
 		73D8C0E97E0E9BBF77919CA2187CE398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA2553FEF81CD16774BCFC00A25E978 /* Foundation.framework */; };
-		792D84B103EBF8FCE883B8CC2BE53EB1 /* Feature1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2736671B46F0096ACE9F941E982D7F /* Feature1-dummy.m */; };
+		792D84B103EBF8FCE883B8CC2BE53EB1 /* Feature1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEBC37AAC01582B7A01B460DC9E50E /* Feature1-dummy.m */; };
+		91A7807989AFDAE22BA08768C9234E3A /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E02651EAC2AB303560E34DDC6E26C6D /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96FF2291253436AED6EB580DA6A00A3B /* FeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572F07E9F069B7339E9351CFE05507B4 /* FeatureService.swift */; };
+		99E24B69C074D6C23305C07EE6850CDD /* Feature1.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5C8AD620D96C42FDEA6042277F50F7 /* Feature1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F1D07EC097F8DA989AF5D7D9CBE5CB /* UserSession-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C5D273D4F3A8D0F33C046C1E80C46 /* UserSession-dummy.m */; };
 		BE5DFA0151E92CC2799560B879464F58 /* Pods-DITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99369FFA3D8EFD2725BF889F2CB3358F /* Pods-DITests-dummy.m */; };
 		C15DDDF36E75AFC55C94E819B6A010B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA2553FEF81CD16774BCFC00A25E978 /* Foundation.framework */; };
 		C5660FCD087C4FFBB294B59AEB6A020A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA2553FEF81CD16774BCFC00A25E978 /* Foundation.framework */; };
+		C68A1669593F9A6142A062CA5E941D21 /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2D132AB399904C7F8475E7D5DD7A28 /* API.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6B6D9C90AB895292E1A97669D2FF0D0 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B753D2D3183D12632904331B522C5AB /* UserSession.swift */; };
 		D52D83868AFB7B25ADFD68BFF0D6B506 /* FeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC800BCDE095104EEEE52967CF733C /* FeatureService.swift */; };
 		DC58D94803D1C1BDFA8995E4487B71D0 /* UserSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E450986EA18AB4503B65200649FB635 /* UserSessionService.swift */; };
@@ -103,55 +103,60 @@
 		00277E7DA0133BA5B7DC99688A14F979 /* Feature3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature3.swift; path = Feature3/Classes/Feature3.swift; sourceTree = "<group>"; };
 		00539F22A9EF16B096B75250205A14EF /* Pods-DITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DITests.modulemap"; sourceTree = "<group>"; };
 		0157443A6CF9AB939C2175CFDCD8D308 /* Pods-DITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DITests-Info.plist"; sourceTree = "<group>"; };
-		017D807923176FAF93FF3827F0B79952 /* Feature1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Feature1.h; sourceTree = "<group>"; };
 		0350170846BE2C9F166047451FF8444D /* Pods-DI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DI.modulemap"; sourceTree = "<group>"; };
 		07433E85BD395C9B04EC4D3CC58AAD58 /* Pods-DI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DI-acknowledgements.plist"; sourceTree = "<group>"; };
+		09F89CF0CC27A123A9E74C7648668B64 /* Feature1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature1.release.xcconfig; sourceTree = "<group>"; };
 		0E340875ADE41D3B15507F2B24992F2E /* Feature3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature3.debug.xcconfig; sourceTree = "<group>"; };
 		0E450986EA18AB4503B65200649FB635 /* UserSessionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserSessionService.swift; path = UserSession/Service/UserSessionService.swift; sourceTree = "<group>"; };
 		1197CE00C5B3CA559FB30461ABE3D582 /* Feature2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature2-Info.plist"; sourceTree = "<group>"; };
 		16C6D798AC66ADC2C79D15A27468DD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		17F2063FF74030B2B6525C67EA51D8B3 /* UserSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180CE99F3D811BDBC05CCE78766C9DFA /* UserSession.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserSession.debug.xcconfig; sourceTree = "<group>"; };
-		1A2736671B46F0096ACE9F941E982D7F /* Feature1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature1-dummy.m"; sourceTree = "<group>"; };
 		1A79CEB6414F2C10AF83771AFB64FC02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1C9FAD32FA6450DD24DDBB534DC90275 /* Pods-DI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DI-frameworks.sh"; sourceTree = "<group>"; };
-		2187E5DE480D8A13E45DBE3DA360BB7D /* FeatureService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeatureService.swift; sourceTree = "<group>"; };
 		27A6EBE122EDD7DD59EB85688A0D4991 /* Feature2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature2.swift; path = Feature2/Classes/Feature2.swift; sourceTree = "<group>"; };
+		285BEE6162BE74B2F16E5ED405FAF0F8 /* Feature1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature1.debug.xcconfig; sourceTree = "<group>"; };
 		287DB28CA7B2091B2B3A875AF2CF8A1D /* Feature2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature2.modulemap; sourceTree = "<group>"; };
 		2C77F03A7DBC280E3D7FB76C8975B950 /* UserSession-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserSession-prefix.pch"; sourceTree = "<group>"; };
 		2EA2553FEF81CD16774BCFC00A25E978 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2F0AC7F46BD92D23200FDC56311A1B83 /* Feature2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature2-dummy.m"; sourceTree = "<group>"; };
 		30E3CDAC00E14E50C683FC65EBBDBCAB /* UserSession.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserSession.release.xcconfig; sourceTree = "<group>"; };
-		3918564FC78F217DDDD42F72920489B6 /* Service.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
 		4342B9AE726CF6AB09C37E2573F0618C /* UserSession-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserSession-umbrella.h"; sourceTree = "<group>"; };
 		4404AC0C6C88DA103DE43BFEEE75E6CB /* Feature3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature3-umbrella.h"; sourceTree = "<group>"; };
+		44D17D51F96B8D76F8F1B7272FAB3C88 /* Feature1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature1-Info.plist"; sourceTree = "<group>"; };
 		498C4FB7F65AA3E806A25364B7122A29 /* Pods-DITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DITests.release.xcconfig"; sourceTree = "<group>"; };
+		49CEBC37AAC01582B7A01B460DC9E50E /* Feature1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature1-dummy.m"; sourceTree = "<group>"; };
+		4AA2C753F910FCACF53FD89CACE8FFE9 /* Feature1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Feature1.swift; sourceTree = "<group>"; };
 		507F19B7C0FCF746FCA15F06771BDFC3 /* Pods-DI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DI-dummy.m"; sourceTree = "<group>"; };
 		514A1234EBA4BA99B152116F33D29BD6 /* UserSession-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UserSession-Info.plist"; sourceTree = "<group>"; };
 		51688DB6C34B9FBD04992F3295932266 /* UserSession.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UserSession.modulemap; sourceTree = "<group>"; };
 		538CD9D8BE4E199AD61EB377DDA5E86B /* UserSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UserSession.framework; path = UserSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54208D80BDAAF3A9654EC9A4D5E8F6EC /* Feature1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature1-prefix.pch"; sourceTree = "<group>"; };
 		548A86BFED40E87F1759741CB5E276EA /* Pods_DI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DI.framework; path = "Pods-DI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572F07E9F069B7339E9351CFE05507B4 /* FeatureService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureService.swift; path = Feature3/Service/FeatureService.swift; sourceTree = "<group>"; };
 		5B0A9D44D79CE1A6DB95A047EF169D9F /* Feature3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature3-prefix.pch"; sourceTree = "<group>"; };
 		6151AF88B40C9C5409A0842FEE2F6436 /* Pods-DITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6172C2EE5AF7F9F79FDC0FD1B24FA9A9 /* Module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Module.modulemap; sourceTree = "<group>"; };
+		61B747A149D055D537C196FAC062D325 /* Feature1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature1-prefix.pch"; sourceTree = "<group>"; };
 		6C4C5D273D4F3A8D0F33C046C1E80C46 /* UserSession-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UserSession-dummy.m"; sourceTree = "<group>"; };
 		6C6C19DFB5CE454ACB0519C46D3201CF /* Pods-DITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DITests.debug.xcconfig"; sourceTree = "<group>"; };
-		70DF645165C65C1304A4615FAE968F7C /* Feature1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		72D5854950BB333893382D574DADE739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7433D97EA5CF1D16D7B5C70869BA2BD0 /* Feature2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature2-umbrella.h"; sourceTree = "<group>"; };
 		777D8F56A38D8C51ABCDABD7852D95A6 /* Pods-DITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A2D132AB399904C7F8475E7D5DD7A28 /* API.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		7E02651EAC2AB303560E34DDC6E26C6D /* Service.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		7E5C8AD620D96C42FDEA6042277F50F7 /* Feature1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Feature1.h; sourceTree = "<group>"; };
 		804D6323DCBD0F148E88E9692C975158 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		80C9D3B78173215A9AA8A437CED7ACAF /* Pods-DI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85753FB7EA530CBAF38BA4A8403BE515 /* Feature1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature1.modulemap; sourceTree = "<group>"; };
 		86968AB719E23D0EE251DBD5E8E52261 /* Feature2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature2.release.xcconfig; sourceTree = "<group>"; };
 		8B753D2D3183D12632904331B522C5AB /* UserSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserSession.swift; path = UserSession/Classes/UserSession.swift; sourceTree = "<group>"; };
 		8DE733FEE1EFF757D2666648FB5F056E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		99369FFA3D8EFD2725BF889F2CB3358F /* Pods-DITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DITests-dummy.m"; sourceTree = "<group>"; };
 		9A8557FDE0107DD453715F9541140724 /* Feature1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Feature1.framework; path = Feature1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5D632F7BAD118D7B9FAE2E388FAACC /* Module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Module.modulemap; sourceTree = "<group>"; };
 		9F6D6D2B831B52829EFFE5CFC1AD3128 /* Pods-DI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DI-umbrella.h"; sourceTree = "<group>"; };
 		A106C0C3264B3BA063F320A5D4E88E39 /* Pods-DITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DITests-umbrella.h"; sourceTree = "<group>"; };
+		A4BDCFE75F51F0D228F9B2D14435DC0B /* FeatureService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeatureService.swift; sourceTree = "<group>"; };
 		A5C54F4B7D401A322E5DDF2F9900B58C /* Pods-DI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DI.release.xcconfig"; sourceTree = "<group>"; };
 		A779B99E42B3856D10DD6C30CBD17098 /* Feature2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature2-prefix.pch"; sourceTree = "<group>"; };
 		AEE16D3DB6205EDAC21E853286514CFD /* Feature3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature3-dummy.m"; sourceTree = "<group>"; };
@@ -161,20 +166,15 @@
 		BF961DCD7473C05A88EEEFBE5B4FB7FB /* Feature3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature3.modulemap; sourceTree = "<group>"; };
 		C1B59ADBB9C5572772DBE3A83899272E /* Feature3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature3.release.xcconfig; sourceTree = "<group>"; };
 		C64D0F50299327539D4CF1860CE76ADE /* Feature3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature3-Info.plist"; sourceTree = "<group>"; };
-		C93A1827F40B15E5ADE94338628D6CE1 /* Feature1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Feature1.swift; sourceTree = "<group>"; };
-		C97BBF74CA1EF00AC16E6426393EB5B4 /* API.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		CBF20908B676371316413B3D0611DD35 /* Pods-DI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DI-Info.plist"; sourceTree = "<group>"; };
 		D6FB54CE7A60238367D55B3FE8DBC361 /* Feature3.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature3.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7AC800BCDE095104EEEE52967CF733C /* FeatureService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureService.swift; path = Feature2/Service/FeatureService.swift; sourceTree = "<group>"; };
-		D7B6C0BE2151AB8FDE6F50DE12A5709E /* Feature1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature1.release.xcconfig; sourceTree = "<group>"; };
 		DA4F340DD708D491BB4A9B7A2B718799 /* Pods_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DITests.framework; path = "Pods-DITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE89EAFAA8C59C04A0827F35D0EE2AA2 /* Feature1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0712B282498A5E2F7823E472E50F28A /* Pods-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DI.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CCD8D1F93D8D20352A20108787E420 /* Feature1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2E738F2B9691E00E3559F052BBC619A /* Feature2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature2.debug.xcconfig; sourceTree = "<group>"; };
-		E2F0CABA535529EA2F21DE13F285D02C /* Feature1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature1-Info.plist"; sourceTree = "<group>"; };
-		E5DD2C23CDDCE2D7B0C9E15A63FB7E19 /* Feature1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature1.modulemap; sourceTree = "<group>"; };
 		ECCC4ACCDC95427810A84AACE8B9AD2B /* Feature2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EF0F3D0AAAA7C810E3677915CBC116B7 /* Feature1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature1.debug.xcconfig; sourceTree = "<group>"; };
 		F666657C106D2CE3112145B7678972E2 /* Feature3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Feature3.framework; path = Feature3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC49DFD3E177AE4BAA01D30BC0BF184F /* Feature2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Feature2.framework; path = Feature2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -246,6 +246,24 @@
 			path = ../DI/DevPods/Feature2;
 			sourceTree = "<group>";
 		};
+		00A76A988AEC4E07A5051ABFC065F889 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E0CCD8D1F93D8D20352A20108787E420 /* Feature1.podspec */,
+				6172C2EE5AF7F9F79FDC0FD1B24FA9A9 /* Module.modulemap */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		14D89C9747658D2C19E5CDB8FF618CBB /* Feature1 */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C8AD620D96C42FDEA6042277F50F7 /* Feature1.h */,
+			);
+			name = Feature1;
+			path = Feature1;
+			sourceTree = "<group>";
+		};
 		27268FDEE0B8B0A35F86E578A67AB600 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,20 +272,6 @@
 				B11F0830EBE5788D02A57FC1C55BF40A /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		2D60F8E4196BC587A7A93EEFBB8F94F2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5DD2C23CDDCE2D7B0C9E15A63FB7E19 /* Feature1.modulemap */,
-				1A2736671B46F0096ACE9F941E982D7F /* Feature1-dummy.m */,
-				E2F0CABA535529EA2F21DE13F285D02C /* Feature1-Info.plist */,
-				54208D80BDAAF3A9654EC9A4D5E8F6EC /* Feature1-prefix.pch */,
-				EF0F3D0AAAA7C810E3677915CBC116B7 /* Feature1.debug.xcconfig */,
-				D7B6C0BE2151AB8FDE6F50DE12A5709E /* Feature1.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../Pods/Target Support Files/Feature1";
 			sourceTree = "<group>";
 		};
 		31054BE1C0E91F1275562F6F42D981BB /* Pod */ = {
@@ -325,15 +329,6 @@
 			path = "../../../Pods/Target Support Files/UserSession";
 			sourceTree = "<group>";
 		};
-		7127831AA5DB9784945D7960F42DC623 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				70DF645165C65C1304A4615FAE968F7C /* Feature1.podspec */,
-				9E5D632F7BAD118D7B9FAE2E388FAACC /* Module.modulemap */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		78ABE7EAB38C0198A117C435587767FA /* Feature3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +352,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7C8FF6D0604D9ABE90AD671B9FD38110 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D132AB399904C7F8475E7D5DD7A28 /* API.h */,
+				4AA2C753F910FCACF53FD89CACE8FFE9 /* Feature1.swift */,
+			);
+			name = Implementation;
+			path = Implementation;
+			sourceTree = "<group>";
+		};
 		7EF363518A12132B6B9586A149C314B1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,15 +379,6 @@
 				8DE733FEE1EFF757D2666648FB5F056E /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		8C2756C2A976808CBC3A89FB699E9F23 /* Feature1 */ = {
-			isa = PBXGroup;
-			children = (
-				017D807923176FAF93FF3827F0B79952 /* Feature1.h */,
-			);
-			name = Feature1;
-			path = Feature1;
 			sourceTree = "<group>";
 		};
 		9F6551BF267703D55AE060EA67CB41FF /* Service */ = {
@@ -417,20 +413,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A828252B0CAF8B1AEF092201389B5F17 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				C97BBF74CA1EF00AC16E6426393EB5B4 /* API.h */,
-				C93A1827F40B15E5ADE94338628D6CE1 /* Feature1.swift */,
-			);
-			name = API;
-			path = API;
-			sourceTree = "<group>";
-		};
 		B4E277F7B765B96428BA11A8FBCAECC3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4F295769BF21F929911EB5371836CB0 /* Feature1 */,
+				D6426AA82923701A07265EAD019920CA /* Feature1 */,
 				004B918371BE150F0DC4AA5C0EF6A6D9 /* Feature2 */,
 				78ABE7EAB38C0198A117C435587767FA /* Feature3 */,
 				FBF701CFA0CB82D7BFDC678CD70BFA5A /* UserSession */,
@@ -457,22 +443,35 @@
 			);
 			sourceTree = "<group>";
 		};
+		CF166CD7418AD093ACBAADFF0AAFC057 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A4BDCFE75F51F0D228F9B2D14435DC0B /* FeatureService.swift */,
+				7E02651EAC2AB303560E34DDC6E26C6D /* Service.h */,
+			);
+			name = Service;
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D6426AA82923701A07265EAD019920CA /* Feature1 */ = {
+			isa = PBXGroup;
+			children = (
+				14D89C9747658D2C19E5CDB8FF618CBB /* Feature1 */,
+				7C8FF6D0604D9ABE90AD671B9FD38110 /* Implementation */,
+				00A76A988AEC4E07A5051ABFC065F889 /* Pod */,
+				CF166CD7418AD093ACBAADFF0AAFC057 /* Service */,
+				F41D7A4D1000B14E133B283931500596 /* Support Files */,
+			);
+			name = Feature1;
+			path = ../DI/DevPods/Feature1;
+			sourceTree = "<group>";
+		};
 		E2863ED6C8ADA75CEB75EE4B6C8C447D /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				D7AC800BCDE095104EEEE52967CF733C /* FeatureService.swift */,
 			);
 			name = Service;
-			sourceTree = "<group>";
-		};
-		E91DE669F3F47135A637C01E958F5AC6 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				2187E5DE480D8A13E45DBE3DA360BB7D /* FeatureService.swift */,
-				3918564FC78F217DDDD42F72920489B6 /* Service.h */,
-			);
-			name = Service;
-			path = Service;
 			sourceTree = "<group>";
 		};
 		EF5DFC29F0F6D3EF5395E124E3C75E98 /* Products */ = {
@@ -488,17 +487,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4F295769BF21F929911EB5371836CB0 /* Feature1 */ = {
+		F41D7A4D1000B14E133B283931500596 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A828252B0CAF8B1AEF092201389B5F17 /* API */,
-				8C2756C2A976808CBC3A89FB699E9F23 /* Feature1 */,
-				7127831AA5DB9784945D7960F42DC623 /* Pod */,
-				E91DE669F3F47135A637C01E958F5AC6 /* Service */,
-				2D60F8E4196BC587A7A93EEFBB8F94F2 /* Support Files */,
+				85753FB7EA530CBAF38BA4A8403BE515 /* Feature1.modulemap */,
+				49CEBC37AAC01582B7A01B460DC9E50E /* Feature1-dummy.m */,
+				44D17D51F96B8D76F8F1B7272FAB3C88 /* Feature1-Info.plist */,
+				61B747A149D055D537C196FAC062D325 /* Feature1-prefix.pch */,
+				285BEE6162BE74B2F16E5ED405FAF0F8 /* Feature1.debug.xcconfig */,
+				09F89CF0CC27A123A9E74C7648668B64 /* Feature1.release.xcconfig */,
 			);
-			name = Feature1;
-			path = ../DI/DevPods/Feature1;
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Feature1";
 			sourceTree = "<group>";
 		};
 		F72C1DB3623DC85440C9B10C209B2946 /* Pods-DI */ = {
@@ -557,6 +557,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		775E77068B91761284E8F37ECE59FD91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68A1669593F9A6142A062CA5E941D21 /* API.h in Headers */,
+				99E24B69C074D6C23305C07EE6850CDD /* Feature1.h in Headers */,
+				91A7807989AFDAE22BA08768C9234E3A /* Service.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C55B7BE9EBF91D552B22C26DAEA2A58F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -573,16 +583,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F789CB39E34C58FA846554BEC699AF54 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2ADBB700FC3B4067C89F6093A279F5BC /* API.h in Headers */,
-				1F4B7556BF18B4AB4AC7E9A81AF10D67 /* Feature1.h in Headers */,
-				0CF05ED9B5A77DEF421690DCF397F74C /* Service.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -590,7 +590,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFDEC0E94DBDC8882FFFE53F2635A3CB /* Build configuration list for PBXNativeTarget "Feature1" */;
 			buildPhases = (
-				F789CB39E34C58FA846554BEC699AF54 /* Headers */,
+				775E77068B91761284E8F37ECE59FD91 /* Headers */,
 				8C589D08E952FFC97D21DE7C440C67A1 /* Sources */,
 				CF96836AB4335148C318BCCCF29C8460 /* Frameworks */,
 				0C328A3AA21D11028DA2F0433330830D /* Resources */,
@@ -1259,7 +1259,7 @@
 		};
 		A6E5A5E08DD0D135FFF9A1AA56FD8C0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7B6C0BE2151AB8FDE6F50DE12A5709E /* Feature1.release.xcconfig */;
+			baseConfigurationReference = 09F89CF0CC27A123A9E74C7648668B64 /* Feature1.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1295,7 +1295,7 @@
 		};
 		DBDADFFCF9AC62BA23C8B1C975C7D65B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF0F3D0AAAA7C810E3677915CBC116B7 /* Feature1.debug.xcconfig */;
+			baseConfigurationReference = 285BEE6162BE74B2F16E5ED405FAF0F8 /* Feature1.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

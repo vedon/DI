@@ -1,13 +1,9 @@
 framework module Feature1 {
-	export *
+	module Service {
+        umbrella header "Service.h"
+        export *
+    }
 }
-
-framework module Feature1ServiceP {
-    umbrella header "Service.h"
-    export *
-}
-
-
 
 
 /*
