@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import DICoordinator
+import FeatureService
 
 struct PrivateModel {
     

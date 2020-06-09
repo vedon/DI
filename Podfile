@@ -6,11 +6,15 @@ target 'DI' do
   use_frameworks!
 
   pod 'Feature1',    :path => './DI/DevPods/Feature1/'
-  pod 'Feature2',    :path => './DI/DevPods/Feature2/'
-  
+  pod 'Feature2',    :path => './DI/DevPods/Feature2/'  
   pod 'Feature3',    :path => './DI/DevPods/Feature3/'
   pod 'UserSession',    :path => './DI/DevPods/UserSession/'
-  pod 'DICoordinator',    :path => './DI/DevPods/DICoordinator/'
+  
+  pod 'DIContainer',    :path => './DI/DevPods/DIContainer/'
+  pod 'FeatureService',    :path => './DI/DevPods/FeatureService/'
+  pod 'User',    :path => './DI/DevPods/User/'
+
+
 
   # Pods for DI
 

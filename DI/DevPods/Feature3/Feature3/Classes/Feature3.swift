@@ -6,15 +6,18 @@
 //
 
 import Foundation
-import UserSession
+import FeatureService
+import User
 
 public class Feature3 {
-    private let user: UserSession
+    private let user: User
     
-    public init() {
-        self.user = UserSession()
+    public init(_ user: User) {
+        self.user = user
     }
-    
+}
+
+extension Feature3: Feature3Service {
     public func doSomething() {
         print("Feature3 do something")
         

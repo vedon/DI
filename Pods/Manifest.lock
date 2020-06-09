@@ -1,39 +1,60 @@
 PODS:
-  - DICoordinator (0.1.0)
+  - DIContainer (0.1.0):
+    - Swinject
   - Feature1 (0.1.0):
-    - DICoordinator
+    - FeatureService
   - Feature2 (0.1.0):
-    - DICoordinator
+    - FeatureService
   - Feature3 (0.1.0):
-    - UserSession
-  - UserSession (0.1.0)
+    - FeatureService
+    - User
+  - FeatureService (0.1.0):
+    - DIContainer
+  - Swinject (2.7.1)
+  - User (0.1.0):
+    - DIContainer
+  - UserSession (0.1.0):
+    - User
 
 DEPENDENCIES:
-  - DICoordinator (from `./DI/DevPods/DICoordinator/`)
+  - DIContainer (from `./DI/DevPods/DIContainer/`)
   - Feature1 (from `./DI/DevPods/Feature1/`)
   - Feature2 (from `./DI/DevPods/Feature2/`)
   - Feature3 (from `./DI/DevPods/Feature3/`)
+  - FeatureService (from `./DI/DevPods/FeatureService/`)
+  - User (from `./DI/DevPods/User/`)
   - UserSession (from `./DI/DevPods/UserSession/`)
 
+SPEC REPOS:
+  trunk:
+    - Swinject
+
 EXTERNAL SOURCES:
-  DICoordinator:
-    :path: "./DI/DevPods/DICoordinator/"
+  DIContainer:
+    :path: "./DI/DevPods/DIContainer/"
   Feature1:
     :path: "./DI/DevPods/Feature1/"
   Feature2:
     :path: "./DI/DevPods/Feature2/"
   Feature3:
     :path: "./DI/DevPods/Feature3/"
+  FeatureService:
+    :path: "./DI/DevPods/FeatureService/"
+  User:
+    :path: "./DI/DevPods/User/"
   UserSession:
     :path: "./DI/DevPods/UserSession/"
 
 SPEC CHECKSUMS:
-  DICoordinator: 4e8b6a65407ff01d8019b1e79d0a3064410a41a3
-  Feature1: c59b89d1cc9394bf443e6560e6ad15cb6693578c
-  Feature2: 595f9716e03f29fac8d3040f66a0a5e96d38ded1
-  Feature3: 01c14130e731341320a89366cdc3d9f5297c7a35
-  UserSession: bd6b2fd51b424f28a406187d3bc2ff8d28b26597
+  DIContainer: 89562c15a0318502213d2d2fc722b029137095c7
+  Feature1: f4b47f17825ad07c1c2421cfe7ef054be3acc229
+  Feature2: 207c38cd5c3cb78724ca90e1bb830d375f1dee40
+  Feature3: d8a93784f17fe0fa86b82c62dcac4d40965f98cb
+  FeatureService: 6c853799adea69d5980a4cc7e8c4a342233b0546
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  User: cb10d9247b420ffd5f233565d131561173ff6431
+  UserSession: f7b1a417bdc5580dcff6e7fda533080c402b5d85
 
-PODFILE CHECKSUM: 3aff9878398f25575200a3a41ae75fbe26901e9f
+PODFILE CHECKSUM: 2e7a2c155d8e34aabc5a9fa93f26e111fbe66732
 
 COCOAPODS: 1.9.1

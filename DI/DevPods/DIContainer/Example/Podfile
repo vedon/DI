@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DIContainer_Tests' do
+  pod 'DIContainer', :path => '../'
+  
+  
+end

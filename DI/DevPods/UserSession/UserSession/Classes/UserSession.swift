@@ -6,10 +6,13 @@
 //
 
 import Foundation
+import User
 
 public class UserSession {
     public init() {}
-    
+}
+
+extension UserSession: User {
     public var isLogin: Bool { true }
     
     public func login() {

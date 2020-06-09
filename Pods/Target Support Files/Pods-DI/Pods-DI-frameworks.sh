@@ -197,17 +197,23 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DICoordinator/DICoordinator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DIContainer/DIContainer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature3/Feature3.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FeatureService/FeatureService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/User/User.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UserSession/UserSession.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DICoordinator/DICoordinator.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DIContainer/DIContainer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature3/Feature3.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FeatureService/FeatureService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/User/User.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UserSession/UserSession.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

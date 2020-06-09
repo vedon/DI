@@ -20,7 +20,10 @@
   },
   "source_files": "Feature3/Classes/**/*",
   "dependencies": {
-    "UserSession": [
+    "User": [
+
+    ],
+    "FeatureService": [
 
     ]
   }

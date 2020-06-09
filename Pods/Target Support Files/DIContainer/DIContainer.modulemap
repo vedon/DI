@@ -1,0 +1,6 @@
+framework module DIContainer {
+  umbrella header "DIContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "DIContainer",
+  "version": "0.1.0",
+  "summary": "A short description of DIContainer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vedon/DIContainer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vedon": "fuweidong@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/vedon/DIContainer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DIContainer/Classes/**/*",
+  "dependencies": {
+    "Swinject": [
+
+    ]
+  }
+}

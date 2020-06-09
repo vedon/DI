@@ -1,0 +1,16 @@
+PODS:
+  - FeatureService (0.1.0)
+
+DEPENDENCIES:
+  - FeatureService (from `../`)
+
+EXTERNAL SOURCES:
+  FeatureService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FeatureService: 5c24eac32d2f2477536ed7c2bddbf181137d0c7e
+
+PODFILE CHECKSUM: 9d7c57d2d06911fef6bc1c39c80d6aa4e11a056b
+
+COCOAPODS: 1.9.1

@@ -6,24 +6,30 @@
 //
 
 import Foundation
-//import Feature1
-//import Feature3
-import DICoordinator
+import FeatureService
 
 public class Feature2 {
-    private let feature1: Feature1Service
-    private let feature3: Feature3Service
+    public struct Dependencies {
+        let feature1: Feature1Service
+        let feature3: Feature3Service
+        
+        public init(feature1: Feature1Service, feature3: Feature3Service) {
+            self.feature1 = feature1
+            self.feature3 = feature3
+        }
+    }
     
-    public init(feature1: Feature1Service, feature3: Feature3Service) {
-        self.feature1 = feature1
-        self.feature3 = feature3
+    private let dependencies: Feature2.Dependencies
+    
+    public init(dependencies: Feature2.Dependencies) {
+        self.dependencies = dependencies
     }
     
     public func doSomething() {
         print("Feature2 do something")
         
-        feature1.doSomething()
+        dependencies.feature1.doSomething()
         
-        feature3.doSomething()
+        dependencies.feature3.doSomething()
     }
 }
