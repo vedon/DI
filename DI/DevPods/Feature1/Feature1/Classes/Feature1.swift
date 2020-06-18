@@ -8,9 +8,9 @@
 import Foundation
 import FeatureService
 
-struct PrivateModel {
-    
-}
+//struct PrivateModel {
+//    
+//}
 
 public class Feature1 {
     public init() {}
