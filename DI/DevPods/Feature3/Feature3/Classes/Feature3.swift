@@ -6,23 +6,22 @@
 //
 
 import Foundation
-import FeatureService
-import User
+import Services
 
 public class Feature3 {
-    private let user: User
+    private let serviceB: ServiceB
     
-    public init(_ user: User) {
-        self.user = user
+    public init(_ serviceB: ServiceB) {
+        self.serviceB = serviceB
     }
 }
 
-extension Feature3: Feature3Service {
+extension Feature3: ServiceC {
     public func doSomething() {
         print("Feature3 do something")
         
-        if user.isLogin == false {
-           user.login()
+        if serviceB.isLogin == false {
+           serviceB.login()
         }
     }
 }

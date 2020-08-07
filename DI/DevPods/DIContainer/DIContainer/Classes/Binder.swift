@@ -10,24 +10,23 @@ import Swinject
 import Feature1
 import Feature2
 import Feature3
-import UserSession
+import Feature4
 
-import User
-import FeatureService
+import Services
 
 class Binder {
     func bind(_ container: Container) {
-        container.register(Feature1Service.self) { (_) -> Feature1Service in
+        container.register(ServiceA.self) { (_) -> ServiceA in
             return Feature1()
         }
 
-        container.register(User.self) { (_) -> User in
-            return UserSession()
+        container.register(ServiceB.self) { (_) -> ServiceB in
+            return Feature2()
         }
-
-        container.register(Feature3Service.self) { (resolver) -> Feature3Service in
-            let user = resolver.resolve(User.self)
-            return Feature3(user!)
+        
+        container.register(ServiceC.self) { (resolver) -> ServiceC in
+            let sb = resolver.resolve(ServiceB.self)!
+            return Feature3.init(sb)
         }
     }
 }

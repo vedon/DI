@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Feature1'
   s.dependency 'Feature2'
   s.dependency 'Feature3'
-  s.dependency 'Services'
   s.dependency 'Feature4'
   
+  s.dependency 'Services'
 end

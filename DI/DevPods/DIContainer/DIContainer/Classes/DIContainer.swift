@@ -18,8 +18,10 @@ public class DIContainer {
         
         binder.bind(internalContainer)
     }
-    
-    public func resolve<T>(with initialzer: AnyInitializer) -> T {
-        return initialzer.resolve(by: internalContainer)
+}
+
+extension DIContainer: Resolver {
+    public func resolve<Service>(_ serviceType: Service.Type) -> Service? {
+        internalContainer.resolve(serviceType)
     }
 }

@@ -15,9 +15,9 @@ PODS:
   - Feature2/Tests (0.1.0):
     - Services
   - Feature3 (0.1.0):
-    - Feature4
     - Services
-  - Feature4 (0.1.0)
+  - Feature4 (0.1.0):
+    - Services
   - Services (0.1.0)
   - Swinject (2.7.1)
 
@@ -54,11 +54,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DIAppContext: 86817ba51862e78b39367e0b8fa2d1c33b49dc8c
-  DIContainer: ba18aabd34492fee612bf20b62b37df2b5e23b68
+  DIContainer: 9f772620ecfc46532d19e8dd80a0185ba123f04d
   Feature1: 5e73e94f621c63d91d41f3bed5ea07d37f084e41
   Feature2: 0c5b1cf8edc19af64bcc79210232e927f1317c40
-  Feature3: 5d32d8fb0a70805fceca616b1fe5c3eb286829d3
-  Feature4: 611cc0d4338361c3f7c8e821ff1d4e95d736d5b2
+  Feature3: 377fe12b9db9a86fbab7f1d1a2e3227ef57423d9
+  Feature4: 77345397e4f45bd0cc1f67da1e0cad143c8d8431
   Services: d02359f7a9b4f506373cf5fc9dd56439134276a0
   Swinject: a2a70ceb43117f16c99e4bd6012ddc74fc41e0cb
 

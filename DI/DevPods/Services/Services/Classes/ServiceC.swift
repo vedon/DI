@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol Feature3Service {
+public protocol ServiceC {
     func doSomething()
 }

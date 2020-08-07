@@ -7,51 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF251EEF3F22C06893C6BFDF1607BB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B1EC1377C8842B769625EB03888E32 /* Foundation.framework */; };
-		C77035BEB8BBAED0C107349140170824 /* Feature4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6492050377FFA91815D150A7DDF772E3 /* Feature4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFC9B639C18F1E02960EC5F8B95BBC79 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F924ECE7EB7CDBF54707E3DB2972B27 /* User.swift */; };
-		FBB0906889C1E9746B807DBA330B5E50 /* Feature4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293620A733AA002E62F756E058A66241 /* Feature4-dummy.m */; };
+		58A1280E2FAA0BEC6BC460D97DA9444A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813F15F201E061208351DC1F58611C8C /* Foundation.framework */; };
+		645D2B7A581B594FB3B6887128501010 /* Feature4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69597A98B1DC858ED6489105CEAFFFB3 /* Feature4.swift */; };
+		ACEFE7BE17C509FEF93B9033D4453BAA /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5EF77EBE820D9BCE6CBC583D9FBF25 /* Services.framework */; };
+		C719CD7400E54783E8387E4FA99BE46A /* Feature4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0E861AC6EBC9412EB6C6FF60D2E44 /* Feature4-dummy.m */; };
+		E04570572021069D09F2C12C9865617A /* Feature4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA7F85E89BF2773043B84CFEF5B4264 /* Feature4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A4AB657CF8EB595BFA7784E999DA423D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53232C5C5F9C468E8EF7E4E99BECD3C9 /* Services.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E3798C972E34DAF466AD4E3B2473F516;
+			remoteInfo = Services;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		191A94505B43B7E2AE5E5FC92B91155A /* Feature4-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature4-Info.plist"; sourceTree = "<group>"; };
-		1F924ECE7EB7CDBF54707E3DB2972B27 /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = Feature4/Classes/User.swift; sourceTree = "<group>"; };
-		290508F14792600F27A51B6F5821EC51 /* Feature4-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature4-prefix.pch"; sourceTree = "<group>"; };
-		293620A733AA002E62F756E058A66241 /* Feature4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature4-dummy.m"; sourceTree = "<group>"; };
-		32FE07FBA53972FE69FDDB41CC93F238 /* Feature4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature4.modulemap; sourceTree = "<group>"; };
-		37F89FED4337425B5A0BDF3EDBA21FD9 /* Feature4.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature4.xcconfig; sourceTree = "<group>"; };
-		3B193CCFFC6CA14B2B19E602FD00F561 /* Feature4.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature4.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		50B1EC1377C8842B769625EB03888E32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6492050377FFA91815D150A7DDF772E3 /* Feature4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature4-umbrella.h"; sourceTree = "<group>"; };
+		03A72AAD5091862DFEEDF0F7F62406DE /* Feature4.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature4.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17C0E861AC6EBC9412EB6C6FF60D2E44 /* Feature4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature4-dummy.m"; sourceTree = "<group>"; };
+		3AA7F85E89BF2773043B84CFEF5B4264 /* Feature4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature4-umbrella.h"; sourceTree = "<group>"; };
+		53232C5C5F9C468E8EF7E4E99BECD3C9 /* Services */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Services; path = Services.xcodeproj; sourceTree = "<group>"; };
+		5A1F4E2D13AD14F9D0F8315DA5B022CB /* Feature4.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature4.xcconfig; sourceTree = "<group>"; };
+		69597A98B1DC858ED6489105CEAFFFB3 /* Feature4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature4.swift; path = Feature4/Classes/Feature4.swift; sourceTree = "<group>"; };
+		6C9F42F63C4EC81458B53783341ADD21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E5EF77EBE820D9BCE6CBC583D9FBF25 /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813F15F201E061208351DC1F58611C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A1D505F76839B0618AE9DDAE17301E79 /* Feature4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Feature4.framework; path = Feature4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5EC5FE667C38F2DFCADD85A74DA68D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C8D4F467427E6D400700E3E17946505B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C686EC86765DF6910B7018143E575CD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E2769E970623AF4155D53CF4B7962E7E /* Feature4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature4.modulemap; sourceTree = "<group>"; };
+		F3ED7130937B96D8C3877EFEB709AC38 /* Feature4-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature4-prefix.pch"; sourceTree = "<group>"; };
+		FCF250382B52F223807C48259484DAF5 /* Feature4-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature4-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EF60063A651A166E3B525F83AD83A7F /* Frameworks */ = {
+		A069599BCEB0E277994E8212A0442FF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF251EEF3F22C06893C6BFDF1607BB6D /* Foundation.framework in Frameworks */,
+				58A1280E2FAA0BEC6BC460D97DA9444A /* Foundation.framework in Frameworks */,
+				ACEFE7BE17C509FEF93B9033D4453BAA /* Services.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		212E0C98E6A6478E3B1BEC7F8F415543 /* Support Files */ = {
+		23B14C3F8906E54F07884C5EC037459F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				32FE07FBA53972FE69FDDB41CC93F238 /* Feature4.modulemap */,
-				37F89FED4337425B5A0BDF3EDBA21FD9 /* Feature4.xcconfig */,
-				293620A733AA002E62F756E058A66241 /* Feature4-dummy.m */,
-				191A94505B43B7E2AE5E5FC92B91155A /* Feature4-Info.plist */,
-				290508F14792600F27A51B6F5821EC51 /* Feature4-prefix.pch */,
-				6492050377FFA91815D150A7DDF772E3 /* Feature4-umbrella.h */,
+				03A72AAD5091862DFEEDF0F7F62406DE /* Feature4.podspec */,
+				C686EC86765DF6910B7018143E575CD4 /* LICENSE */,
+				6C9F42F63C4EC81458B53783341ADD21 /* README.md */,
 			);
-			name = "Support Files";
-			path = "../../../Pods/Target Support Files/Feature4";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		391762A5AA6033BC06FB0BE7BA593F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5EF77EBE820D9BCE6CBC583D9FBF25 /* Services.framework */,
+				CB4616B8E7388551B9D0EDEBDDF8E2B5 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		743AC24CB4B0C69E2FC077E74B68ED00 /* Products */ = {
@@ -62,60 +81,65 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95B013868CF501EFFD360949695279B9 /* iOS */ = {
+		7E75E5E25F4D8F3A00BD004652C7A3FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50B1EC1377C8842B769625EB03888E32 /* Foundation.framework */,
+				E2769E970623AF4155D53CF4B7962E7E /* Feature4.modulemap */,
+				5A1F4E2D13AD14F9D0F8315DA5B022CB /* Feature4.xcconfig */,
+				17C0E861AC6EBC9412EB6C6FF60D2E44 /* Feature4-dummy.m */,
+				FCF250382B52F223807C48259484DAF5 /* Feature4-Info.plist */,
+				F3ED7130937B96D8C3877EFEB709AC38 /* Feature4-prefix.pch */,
+				3AA7F85E89BF2773043B84CFEF5B4264 /* Feature4-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Feature4";
 			sourceTree = "<group>";
 		};
-		D359A8608EC7239B979BFF09070694D9 /* Frameworks */ = {
+		85637C5F79C31649F3BF8566891D5B56 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				95B013868CF501EFFD360949695279B9 /* iOS */,
+				53232C5C5F9C468E8EF7E4E99BECD3C9 /* Services */,
 			);
-			name = Frameworks;
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		DBE72EE4A5964585B352E556FD816FA9 /* Feature4 */ = {
+		99EA38E0213BDAF53C8DD8EE104A84B7 /* Feature4 */ = {
 			isa = PBXGroup;
 			children = (
-				1F924ECE7EB7CDBF54707E3DB2972B27 /* User.swift */,
-				F79C3C5FDBAB8F699AAC321947A7A230 /* Pod */,
-				212E0C98E6A6478E3B1BEC7F8F415543 /* Support Files */,
+				69597A98B1DC858ED6489105CEAFFFB3 /* Feature4.swift */,
+				23B14C3F8906E54F07884C5EC037459F /* Pod */,
+				7E75E5E25F4D8F3A00BD004652C7A3FB /* Support Files */,
 			);
 			name = Feature4;
 			path = ../DI/DevPods/Feature4;
 			sourceTree = "<group>";
 		};
+		CB4616B8E7388551B9D0EDEBDDF8E2B5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				813F15F201E061208351DC1F58611C8C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		ECF5EB799845169934E97A3C79CCF418 = {
 			isa = PBXGroup;
 			children = (
-				DBE72EE4A5964585B352E556FD816FA9 /* Feature4 */,
-				D359A8608EC7239B979BFF09070694D9 /* Frameworks */,
+				85637C5F79C31649F3BF8566891D5B56 /* Dependencies */,
+				99EA38E0213BDAF53C8DD8EE104A84B7 /* Feature4 */,
+				391762A5AA6033BC06FB0BE7BA593F89 /* Frameworks */,
 				743AC24CB4B0C69E2FC077E74B68ED00 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		F79C3C5FDBAB8F699AAC321947A7A230 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3B193CCFFC6CA14B2B19E602FD00F561 /* Feature4.podspec */,
-				A5EC5FE667C38F2DFCADD85A74DA68D6 /* LICENSE */,
-				C8D4F467427E6D400700E3E17946505B /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4DD0F2264D4336C70222AA814AD718EE /* Headers */ = {
+		156D8240A235CC0C8030016DACAC31C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77035BEB8BBAED0C107349140170824 /* Feature4-umbrella.h in Headers */,
+				E04570572021069D09F2C12C9865617A /* Feature4-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,16 +148,17 @@
 /* Begin PBXNativeTarget section */
 		65FC6E1D0D6ED38E74CA0DF5858BACCA /* Feature4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6738A30E4465CEE7D1AEC3E681FC8D5 /* Build configuration list for PBXNativeTarget "Feature4" */;
+			buildConfigurationList = 6B89A2AD40D649B084BB68F44E0AE5A4 /* Build configuration list for PBXNativeTarget "Feature4" */;
 			buildPhases = (
-				4DD0F2264D4336C70222AA814AD718EE /* Headers */,
-				040FEDF2DB84B42D00F58068BA6EBDF6 /* Sources */,
-				4EF60063A651A166E3B525F83AD83A7F /* Frameworks */,
-				43E6AAC48872DF4B8AA9DE76BC0DED7C /* Resources */,
+				156D8240A235CC0C8030016DACAC31C1 /* Headers */,
+				93800D117069C724C574ADB60A428690 /* Sources */,
+				A069599BCEB0E277994E8212A0442FF9 /* Frameworks */,
+				40113282F561398620981152C7621850 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				46D9A76FD27997BAF74507F0E2CC1A41 /* PBXTargetDependency */,
 			);
 			name = Feature4;
 			productName = Feature4;
@@ -160,6 +185,11 @@
 			mainGroup = ECF5EB799845169934E97A3C79CCF418;
 			productRefGroup = 743AC24CB4B0C69E2FC077E74B68ED00 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 53232C5C5F9C468E8EF7E4E99BECD3C9 /* Services */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				65FC6E1D0D6ED38E74CA0DF5858BACCA /* Feature4 */,
@@ -168,7 +198,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43E6AAC48872DF4B8AA9DE76BC0DED7C /* Resources */ = {
+		40113282F561398620981152C7621850 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,18 +208,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		040FEDF2DB84B42D00F58068BA6EBDF6 /* Sources */ = {
+		93800D117069C724C574ADB60A428690 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB0906889C1E9746B807DBA330B5E50 /* Feature4-dummy.m in Sources */,
-				EFC9B639C18F1E02960EC5F8B95BBC79 /* User.swift in Sources */,
+				C719CD7400E54783E8387E4FA99BE46A /* Feature4-dummy.m in Sources */,
+				645D2B7A581B594FB3B6887128501010 /* Feature4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		46D9A76FD27997BAF74507F0E2CC1A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Services;
+			targetProxy = A4AB657CF8EB595BFA7784E999DA423D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		08705F6D1A1F597AE3CDFC954A9E97AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1F4E2D13AD14F9D0F8315DA5B022CB /* Feature4.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Feature4/Feature4-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Feature4/Feature4-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Feature4/Feature4.modulemap";
+				PRODUCT_MODULE_NAME = Feature4;
+				PRODUCT_NAME = Feature4;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		33A9EDE14F6C8C7648307EA683FCE59A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -254,79 +329,6 @@
 			};
 			name = Debug;
 		};
-		5590637D8DB3E4FE132B8BA514FF85F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37F89FED4337425B5A0BDF3EDBA21FD9 /* Feature4.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Feature4/Feature4-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Feature4/Feature4-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Feature4/Feature4.modulemap";
-				PRODUCT_MODULE_NAME = Feature4;
-				PRODUCT_NAME = Feature4;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6E17E299C053CC678BE01ACC3B2AA068 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37F89FED4337425B5A0BDF3EDBA21FD9 /* Feature4.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Feature4/Feature4-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Feature4/Feature4-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Feature4/Feature4.modulemap";
-				PRODUCT_MODULE_NAME = Feature4;
-				PRODUCT_NAME = Feature4;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		78A3824FADF118181D10B2FA19D15C97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -387,14 +389,50 @@
 			};
 			name = Release;
 		};
+		E5C35169C875050D6C83E49A3C75702B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1F4E2D13AD14F9D0F8315DA5B022CB /* Feature4.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Feature4/Feature4-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Feature4/Feature4-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Feature4/Feature4.modulemap";
+				PRODUCT_MODULE_NAME = Feature4;
+				PRODUCT_NAME = Feature4;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6738A30E4465CEE7D1AEC3E681FC8D5 /* Build configuration list for PBXNativeTarget "Feature4" */ = {
+		6B89A2AD40D649B084BB68F44E0AE5A4 /* Build configuration list for PBXNativeTarget "Feature4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5590637D8DB3E4FE132B8BA514FF85F7 /* Debug */,
-				6E17E299C053CC678BE01ACC3B2AA068 /* Release */,
+				E5C35169C875050D6C83E49A3C75702B /* Debug */,
+				08705F6D1A1F597AE3CDFC954A9E97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

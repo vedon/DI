@@ -6,17 +6,13 @@
 //
 
 import Foundation
-import FeatureService
-
-//struct PrivateModel {
-//    
-//}
+import Services
 
 public class Feature1 {
     public init() {}
 }
 
-extension Feature1: Feature1Service {
+extension Feature1: ServiceA {
     public func doSomething() {
         print("Feature1 do something")
     }
