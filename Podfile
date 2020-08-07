@@ -7,19 +7,18 @@ target 'DI' do
   use_frameworks!
 
   pod 'DIAppContext', :path=> './DI/DevPods/DIAppContext'
-  pod 'FeatureService',    :path => './DI/DevPods/FeatureService/'
+  pod 'Services',    :path => './DI/DevPods/Services/'
   
   pod 'Feature1',    :path => './DI/DevPods/Feature1/'
   pod 'Feature2',    :path => './DI/DevPods/Feature2/', :testspecs => ['Tests']
   pod 'Feature3',    :path => './DI/DevPods/Feature3/'
-  pod 'UserSession',    :path => './DI/DevPods/UserSession/'
-  pod 'User',    :path => './DI/DevPods/User/'
+  pod 'Feature4',    :path => './DI/DevPods/Feature4/'
   
   pod 'DIContainer',    :path => './DI/DevPods/DIContainer/'
+  pod 'Swinject', '2.7.1'
   
   target 'DITests' do
     inherit! :search_paths
     # Pods for testing
   end
-
 end

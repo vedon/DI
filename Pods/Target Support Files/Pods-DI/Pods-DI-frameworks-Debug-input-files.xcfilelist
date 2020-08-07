@@ -4,7 +4,6 @@ ${BUILT_PRODUCTS_DIR}/DIContainer/DIContainer.framework
 ${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework
 ${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework
 ${BUILT_PRODUCTS_DIR}/Feature3/Feature3.framework
-${BUILT_PRODUCTS_DIR}/FeatureService/FeatureService.framework
+${BUILT_PRODUCTS_DIR}/Feature4/Feature4.framework
+${BUILT_PRODUCTS_DIR}/Services/Services.framework
 ${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework
-${BUILT_PRODUCTS_DIR}/User/User.framework
-${BUILT_PRODUCTS_DIR}/UserSession/UserSession.framework

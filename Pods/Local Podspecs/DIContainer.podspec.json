@@ -23,9 +23,6 @@
     "Swinject": [
 
     ],
-    "UserSession": [
-
-    ],
     "Feature1": [
 
     ],
@@ -35,10 +32,10 @@
     "Feature3": [
 
     ],
-    "FeatureService": [
+    "Services": [
 
     ],
-    "User": [
+    "Feature4": [
 
     ]
   }

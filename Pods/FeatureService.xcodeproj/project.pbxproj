@@ -7,52 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B6D63E1E27DF4168641B2E43C4E1C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C712E9AF579D497F550C5711574A7 /* Foundation.framework */; };
-		10D5616E5E069C1AE0C099A16A00A276 /* Feature1Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE2FA9BC461015C88EBB588AB5D941 /* Feature1Service.swift */; };
-		6238E1E5552EBA7D7E27F7E024C95A8D /* Feature3Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F675436E58145D31129A07DB5ABAFC /* Feature3Service.swift */; };
-		80D896666D89A65D8AE43EC336F7B4D0 /* FeatureService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B535CAC951374F064EBAE73B45B9E29F /* FeatureService-dummy.m */; };
-		A96C35434EDE38D9C6FB8DC72041B47D /* FeatureService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC62B8E5EB7A644481935A41CBAEA3F /* FeatureService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B2AFDB0A3B2F77BC0F787C7F3ED171 /* FeatureService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B5F557928EDEAF3948BE3760835A35 /* FeatureService-dummy.m */; };
+		4D39DF54A0D041583DE1B36D271A6941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C712E9AF579D497F550C5711574A7 /* Foundation.framework */; };
+		57956493D995A1E5FFDE67DE38B0CAFE /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B9B33533558E0AE92A9311373C7E /* UserSession.swift */; };
+		6835DCCF13C2110B938E66474C679ED6 /* Feature3Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DA3EF0C8EC391D09653F2C011B16C /* Feature3Service.swift */; };
+		AF770D777434B93383723FDDD7657531 /* FeatureService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAFEAA004AF933D8D0DA47B9C0B4F22 /* FeatureService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D19262C87DD3782058C6ACFF6FE2A30C /* Feature1Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739725CD1AB5366709ECEFDC1B96C73 /* Feature1Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A412C7FA9340C36CFEECE2449C4C687 /* FeatureService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureService-prefix.pch"; sourceTree = "<group>"; };
-		1DC62B8E5EB7A644481935A41CBAEA3F /* FeatureService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureService-umbrella.h"; sourceTree = "<group>"; };
-		2C74E11F506C2FCB6607BFAAE6B4D0E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8F46D7E370E204389644E34042BB2FD2 /* FeatureService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeatureService.debug.xcconfig; sourceTree = "<group>"; };
-		B2FE2FA9BC461015C88EBB588AB5D941 /* Feature1Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature1Service.swift; path = FeatureService/Classes/Feature1Service.swift; sourceTree = "<group>"; };
-		B535CAC951374F064EBAE73B45B9E29F /* FeatureService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeatureService-dummy.m"; sourceTree = "<group>"; };
+		229DA3EF0C8EC391D09653F2C011B16C /* Feature3Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature3Service.swift; path = FeatureService/Classes/Feature3Service.swift; sourceTree = "<group>"; };
+		38B5F557928EDEAF3948BE3760835A35 /* FeatureService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeatureService-dummy.m"; sourceTree = "<group>"; };
+		5453469CF13BCCFEFC1E6E79E8AE3EC1 /* FeatureService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeatureService.xcconfig; sourceTree = "<group>"; };
+		6739725CD1AB5366709ECEFDC1B96C73 /* Feature1Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature1Service.swift; path = FeatureService/Classes/Feature1Service.swift; sourceTree = "<group>"; };
+		6F786454AF1CBE185A790BDE8073A98F /* FeatureService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FeatureService-Info.plist"; sourceTree = "<group>"; };
+		6FC9BBD674D82107F1FD05DF48B7E710 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8B3FCB78867293D5099A887176E7863B /* FeatureService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureService-prefix.pch"; sourceTree = "<group>"; };
+		BFC1D73637C0B5D47A3371819845459D /* FeatureService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FeatureService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C179523EB32AA0BB18030B1DAF80D910 /* FeatureService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeatureService.framework; path = FeatureService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C58B65AFC9E3C1D9EA2BD2F1B08A7672 /* FeatureService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FeatureService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C6E83DC6C582530EA73E35F1BC0D4D09 /* FeatureService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeatureService.modulemap; sourceTree = "<group>"; };
-		D18C64A6D419B54C4EF3DE39838A2D32 /* FeatureService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FeatureService-Info.plist"; sourceTree = "<group>"; };
-		DE190809EB69B1CE0E064EB375EB88A2 /* FeatureService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeatureService.release.xcconfig; sourceTree = "<group>"; };
-		E0DB3557CCA78E3E524D9928109F77EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F6F675436E58145D31129A07DB5ABAFC /* Feature3Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature3Service.swift; path = FeatureService/Classes/Feature3Service.swift; sourceTree = "<group>"; };
+		C1C3B9B33533558E0AE92A9311373C7E /* UserSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserSession.swift; path = FeatureService/Classes/UserSession.swift; sourceTree = "<group>"; };
+		C995130A95D890AB734CB57F6B923F0A /* FeatureService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeatureService.modulemap; sourceTree = "<group>"; };
+		CCAFEAA004AF933D8D0DA47B9C0B4F22 /* FeatureService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureService-umbrella.h"; sourceTree = "<group>"; };
+		F6D5EB3FE30D702F7AF8C087040909AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FC3C712E9AF579D497F550C5711574A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF2A9C3BB02009B7A6B3CAC247840D6A /* Frameworks */ = {
+		8F666C491338F378B749DC472ACD24DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B6D63E1E27DF4168641B2E43C4E1C16 /* Foundation.framework in Frameworks */,
+				4D39DF54A0D041583DE1B36D271A6941 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3255B225CEA75B2632C8DC3896E48A8F /* Support Files */ = {
+		1B4705E7E7C9AE7CD49A71D6A642C261 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C6E83DC6C582530EA73E35F1BC0D4D09 /* FeatureService.modulemap */,
-				B535CAC951374F064EBAE73B45B9E29F /* FeatureService-dummy.m */,
-				D18C64A6D419B54C4EF3DE39838A2D32 /* FeatureService-Info.plist */,
-				1A412C7FA9340C36CFEECE2449C4C687 /* FeatureService-prefix.pch */,
-				1DC62B8E5EB7A644481935A41CBAEA3F /* FeatureService-umbrella.h */,
-				8F46D7E370E204389644E34042BB2FD2 /* FeatureService.debug.xcconfig */,
-				DE190809EB69B1CE0E064EB375EB88A2 /* FeatureService.release.xcconfig */,
+				BFC1D73637C0B5D47A3371819845459D /* FeatureService.podspec */,
+				6FC9BBD674D82107F1FD05DF48B7E710 /* LICENSE */,
+				F6D5EB3FE30D702F7AF8C087040909AD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		36D51C43AECBD9FE631CFF19707F21FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C995130A95D890AB734CB57F6B923F0A /* FeatureService.modulemap */,
+				5453469CF13BCCFEFC1E6E79E8AE3EC1 /* FeatureService.xcconfig */,
+				38B5F557928EDEAF3948BE3760835A35 /* FeatureService-dummy.m */,
+				6F786454AF1CBE185A790BDE8073A98F /* FeatureService-Info.plist */,
+				8B3FCB78867293D5099A887176E7863B /* FeatureService-prefix.pch */,
+				CCAFEAA004AF933D8D0DA47B9C0B4F22 /* FeatureService-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../../../Pods/Target Support Files/FeatureService";
@@ -66,14 +76,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EAAB1861F9D2C4B92F34A5109FB8F4D /* Pod */ = {
+		56038E17A18C333ECFC8432888A4DB5B /* FeatureService */ = {
 			isa = PBXGroup;
 			children = (
-				C58B65AFC9E3C1D9EA2BD2F1B08A7672 /* FeatureService.podspec */,
-				E0DB3557CCA78E3E524D9928109F77EB /* LICENSE */,
-				2C74E11F506C2FCB6607BFAAE6B4D0E3 /* README.md */,
+				6739725CD1AB5366709ECEFDC1B96C73 /* Feature1Service.swift */,
+				229DA3EF0C8EC391D09653F2C011B16C /* Feature3Service.swift */,
+				C1C3B9B33533558E0AE92A9311373C7E /* UserSession.swift */,
+				1B4705E7E7C9AE7CD49A71D6A642C261 /* Pod */,
+				36D51C43AECBD9FE631CFF19707F21FF /* Support Files */,
 			);
-			name = Pod;
+			name = FeatureService;
+			path = ../DI/DevPods/FeatureService;
 			sourceTree = "<group>";
 		};
 		A24DA29B410F9FF8D8B8D0C8FBB96D57 /* Frameworks */ = {
@@ -92,22 +105,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B312C12F34016614368AFD5351FD0F5D /* FeatureService */ = {
-			isa = PBXGroup;
-			children = (
-				B2FE2FA9BC461015C88EBB588AB5D941 /* Feature1Service.swift */,
-				F6F675436E58145D31129A07DB5ABAFC /* Feature3Service.swift */,
-				9EAAB1861F9D2C4B92F34A5109FB8F4D /* Pod */,
-				3255B225CEA75B2632C8DC3896E48A8F /* Support Files */,
-			);
-			name = FeatureService;
-			path = ../DI/DevPods/FeatureService;
-			sourceTree = "<group>";
-		};
 		F24D7307FF1E7D3F536927F128023A7A = {
 			isa = PBXGroup;
 			children = (
-				B312C12F34016614368AFD5351FD0F5D /* FeatureService */,
+				56038E17A18C333ECFC8432888A4DB5B /* FeatureService */,
 				A24DA29B410F9FF8D8B8D0C8FBB96D57 /* Frameworks */,
 				375316DB6A3E755EFF8857AE2821E8D9 /* Products */,
 			);
@@ -116,11 +117,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A7B3B1252C0A432176F9DFB490F7B527 /* Headers */ = {
+		509821EEB81F9E77BD319300537A96C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96C35434EDE38D9C6FB8DC72041B47D /* FeatureService-umbrella.h in Headers */,
+				AF770D777434B93383723FDDD7657531 /* FeatureService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,12 +130,12 @@
 /* Begin PBXNativeTarget section */
 		AD8DDF0A682CA65069A6F9B6EFB5177D /* FeatureService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D438903AA3A2F126A6C5E1FFDEEA3F5 /* Build configuration list for PBXNativeTarget "FeatureService" */;
+			buildConfigurationList = ED4105CB720B63748E5D660C40E9361E /* Build configuration list for PBXNativeTarget "FeatureService" */;
 			buildPhases = (
-				A7B3B1252C0A432176F9DFB490F7B527 /* Headers */,
-				9CC3BA7FDECD56C654FDEBD4A9645AE3 /* Sources */,
-				EF2A9C3BB02009B7A6B3CAC247840D6A /* Frameworks */,
-				7A2A8C807A15677F378B965374F0E524 /* Resources */,
+				509821EEB81F9E77BD319300537A96C5 /* Headers */,
+				7FB8469A21D63B6C6FA44768B7527216 /* Sources */,
+				8F666C491338F378B749DC472ACD24DD /* Frameworks */,
+				D0A9566C9B6CC90C71B363B92E5F8771 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -173,7 +174,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A2A8C807A15677F378B965374F0E524 /* Resources */ = {
+		D0A9566C9B6CC90C71B363B92E5F8771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,13 +184,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9CC3BA7FDECD56C654FDEBD4A9645AE3 /* Sources */ = {
+		7FB8469A21D63B6C6FA44768B7527216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D5616E5E069C1AE0C099A16A00A276 /* Feature1Service.swift in Sources */,
-				6238E1E5552EBA7D7E27F7E024C95A8D /* Feature3Service.swift in Sources */,
-				80D896666D89A65D8AE43EC336F7B4D0 /* FeatureService-dummy.m in Sources */,
+				D19262C87DD3782058C6ACFF6FE2A30C /* Feature1Service.swift in Sources */,
+				6835DCCF13C2110B938E66474C679ED6 /* Feature3Service.swift in Sources */,
+				24B2AFDB0A3B2F77BC0F787C7F3ED171 /* FeatureService-dummy.m in Sources */,
+				57956493D995A1E5FFDE67DE38B0CAFE /* UserSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +322,9 @@
 			};
 			name = Release;
 		};
-		70F77AFE6A5BEA9DB93AC4FDF8F0CB88 /* Debug */ = {
+		6D84BFE9FAEF941611389604021DBF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F46D7E370E204389644E34042BB2FD2 /* FeatureService.debug.xcconfig */;
+			baseConfigurationReference = 5453469CF13BCCFEFC1E6E79E8AE3EC1 /* FeatureService.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -356,9 +358,9 @@
 			};
 			name = Debug;
 		};
-		B519FCB7B7C986278B8B6FFB0B8D9290 /* Release */ = {
+		9D2811BD4243AF871C95C6DCC68B317A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE190809EB69B1CE0E064EB375EB88A2 /* FeatureService.release.xcconfig */;
+			baseConfigurationReference = 5453469CF13BCCFEFC1E6E79E8AE3EC1 /* FeatureService.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -405,11 +407,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D438903AA3A2F126A6C5E1FFDEEA3F5 /* Build configuration list for PBXNativeTarget "FeatureService" */ = {
+		ED4105CB720B63748E5D660C40E9361E /* Build configuration list for PBXNativeTarget "FeatureService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70F77AFE6A5BEA9DB93AC4FDF8F0CB88 /* Debug */,
-				B519FCB7B7C986278B8B6FFB0B8D9290 /* Release */,
+				6D84BFE9FAEF941611389604021DBF3B /* Debug */,
+				9D2811BD4243AF871C95C6DCC68B317A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

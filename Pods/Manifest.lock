@@ -5,24 +5,21 @@ PODS:
     - Feature1
     - Feature2
     - Feature3
-    - FeatureService
+    - Feature4
+    - Services
     - Swinject
-    - User
-    - UserSession
   - Feature1 (0.1.0):
-    - FeatureService
+    - Services
   - Feature2 (0.1.0):
-    - FeatureService
+    - Services
   - Feature2/Tests (0.1.0):
-    - FeatureService
+    - Services
   - Feature3 (0.1.0):
-    - FeatureService
-    - User
-  - FeatureService (0.1.0)
+    - Feature4
+    - Services
+  - Feature4 (0.1.0)
+  - Services (0.1.0)
   - Swinject (2.7.1)
-  - User (0.1.0)
-  - UserSession (0.1.0):
-    - User
 
 DEPENDENCIES:
   - DIAppContext (from `./DI/DevPods/DIAppContext`)
@@ -31,12 +28,12 @@ DEPENDENCIES:
   - Feature2 (from `./DI/DevPods/Feature2/`)
   - Feature2/Tests (from `./DI/DevPods/Feature2/`)
   - Feature3 (from `./DI/DevPods/Feature3/`)
-  - FeatureService (from `./DI/DevPods/FeatureService/`)
-  - User (from `./DI/DevPods/User/`)
-  - UserSession (from `./DI/DevPods/UserSession/`)
+  - Feature4 (from `./DI/DevPods/Feature4/`)
+  - Services (from `./DI/DevPods/Services/`)
+  - Swinject (= 2.7.1)
 
 SPEC REPOS:
-  trunk:
+  "git@code.byted.org:iOS_Library/publicthird_source_repo.git":
     - Swinject
 
 EXTERNAL SOURCES:
@@ -50,24 +47,21 @@ EXTERNAL SOURCES:
     :path: "./DI/DevPods/Feature2/"
   Feature3:
     :path: "./DI/DevPods/Feature3/"
-  FeatureService:
-    :path: "./DI/DevPods/FeatureService/"
-  User:
-    :path: "./DI/DevPods/User/"
-  UserSession:
-    :path: "./DI/DevPods/UserSession/"
+  Feature4:
+    :path: "./DI/DevPods/Feature4/"
+  Services:
+    :path: "./DI/DevPods/Services/"
 
 SPEC CHECKSUMS:
   DIAppContext: 86817ba51862e78b39367e0b8fa2d1c33b49dc8c
-  DIContainer: 620e3e683f2352a9b80d20d1b082695591b364e2
-  Feature1: 0331eda37a13f331a8ddc96ebea17b24f044ade0
-  Feature2: 1f079e6e5c1cd2933bb9f40b0eb0fedaf99529f7
-  Feature3: b027e0f018ec604fcc8ae2927d4b0b12841da98a
-  FeatureService: fcf5317fe77fcbfc3334bf4445cc03ef61eda697
-  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
-  User: f9ccb777e090fa05c2d949ed36422c69a547aa3a
-  UserSession: 8ae818c068d1a7ed7bacc32f9fc0f1f1e290cf0a
+  DIContainer: ba18aabd34492fee612bf20b62b37df2b5e23b68
+  Feature1: 5e73e94f621c63d91d41f3bed5ea07d37f084e41
+  Feature2: 0c5b1cf8edc19af64bcc79210232e927f1317c40
+  Feature3: 5d32d8fb0a70805fceca616b1fe5c3eb286829d3
+  Feature4: 611cc0d4338361c3f7c8e821ff1d4e95d736d5b2
+  Services: d02359f7a9b4f506373cf5fc9dd56439134276a0
+  Swinject: a2a70ceb43117f16c99e4bd6012ddc74fc41e0cb
 
-PODFILE CHECKSUM: 86d46a50f3d76365a8b2035d2bddc93a9ca6a94b
+PODFILE CHECKSUM: 5b36b29ca631ac154888d49795bc39604fe2556f
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.7.5

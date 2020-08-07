@@ -1,12 +1,12 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DIAppContext" "${PODS_CONFIGURATION_BUILD_DIR}/DIContainer" "${PODS_CONFIGURATION_BUILD_DIR}/Feature1" "${PODS_CONFIGURATION_BUILD_DIR}/Feature2" "${PODS_CONFIGURATION_BUILD_DIR}/Feature3" "${PODS_CONFIGURATION_BUILD_DIR}/FeatureService" "${PODS_CONFIGURATION_BUILD_DIR}/Swinject" "${PODS_CONFIGURATION_BUILD_DIR}/User" "${PODS_CONFIGURATION_BUILD_DIR}/UserSession"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DIAppContext/DIAppContext.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DIContainer/DIContainer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature1/Feature1.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature2/Feature2.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature3/Feature3.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FeatureService/FeatureService.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Swinject/Swinject.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/User/User.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UserSession/UserSession.framework/Headers"
+CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DIAppContext" "${PODS_CONFIGURATION_BUILD_DIR}/DIContainer" "${PODS_CONFIGURATION_BUILD_DIR}/Feature1" "${PODS_CONFIGURATION_BUILD_DIR}/Feature2" "${PODS_CONFIGURATION_BUILD_DIR}/Feature3" "${PODS_CONFIGURATION_BUILD_DIR}/Feature4" "${PODS_CONFIGURATION_BUILD_DIR}/Services" "${PODS_CONFIGURATION_BUILD_DIR}/Swinject"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 Swinject_POD_VERSION=@\"8888_2.7.1\"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DIAppContext/DIAppContext.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DIContainer/DIContainer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature1/Feature1.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature2/Feature2.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature3/Feature3.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Feature4/Feature4.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Services/Services.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Swinject/Swinject.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "DIAppContext" -framework "DIContainer" -framework "Feature1" -framework "Feature2" -framework "Feature3" -framework "FeatureService" -framework "Swinject" -framework "User" -framework "UserSession"
+OTHER_LDFLAGS = $(inherited) -framework "DIAppContext" -framework "DIContainer" -framework "Feature1" -framework "Feature2" -framework "Feature3" -framework "Feature4" -framework "Services" -framework "Swinject"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
-USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

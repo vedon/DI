@@ -7,75 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EA2F4A4A50BB45F110845C78B099A48 /* User.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5CEC7CA4A1599FC90F36A4C5BE5A89 /* User.framework */; };
-		4F0AD00F578D74029CA0632E3B862938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE204134C8CD7AF9CBC23028921A8E2 /* Foundation.framework */; };
-		52A508BD881DD3E79415FB7F32FDE4C4 /* FeatureService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571462BFE3890973A1CFFB8AD93C92C5 /* FeatureService.framework */; };
-		66A1E09477BA46368FAF17A20AFDE0CE /* Feature3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7847A0409DD544A46B653A2FA7DAB /* Feature3-dummy.m */; };
-		D4F2F9E3E0CA51B7A5981B8536B6B0DE /* Feature3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDE6212627A6C0CE956F4678F6964F6 /* Feature3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9DB2AC8BB5F66DB670CDA402FDE0167 /* Feature3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BDAA043DFF1A1C9357C7445E2200 /* Feature3.swift */; };
+		099B5595D253D841E58BCFC6EF5920A1 /* Feature4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC48FD86211B66A032A63B6388BAB333 /* Feature4.framework */; };
+		7820CF6505A24C9C1D2D8BA19C942B92 /* Feature3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A174A91729885F2EA7DFF5EF4716FAF /* Feature3-dummy.m */; };
+		95A7ED1221B6ABF8DFC7F528DE077713 /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA240E71E5B3F06BB7A884107C2799EB /* Services.framework */; };
+		B25CF142C6FCC5E61F5AD3FC0DDCA166 /* Feature3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C118097951DB7C7256E1700C3C017E1A /* Feature3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C291E8E57A2588FD3335C82950C9ED94 /* Feature3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FF2EF08002DD569A9D1287EA08F20 /* Feature3.swift */; };
+		DCC7FF460AC7B1735D611D414BA4C1E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232FB43982B7498AF1B87FF4BC6AD9CA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C6DEFAADAFF3F2C9FEB7BAB5A932BD94 /* PBXContainerItemProxy */ = {
+		40A9AC18551ACAF0507F5569BE52662A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ACAED266CA311BE84B9C71E8DDFC53AE /* FeatureService.xcodeproj */;
+			containerPortal = 28E0FBD70D721E141D0BE9B0750B2E1F /* Services.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = AD8DDF0A682CA65069A6F9B6EFB5177D;
-			remoteInfo = FeatureService;
+			remoteGlobalIDString = E3798C972E34DAF466AD4E3B2473F516;
+			remoteInfo = Services;
 		};
-		E7D9ABCE93A448B8C7C2BDBF07D3FAB1 /* PBXContainerItemProxy */ = {
+		CE7ED0F6704519B65EAF0D3AD7D77F58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 82B755D8AA7B09C544C0BBA8C3231922 /* User.xcodeproj */;
+			containerPortal = DEE108406CD49B67F6A5933A85867061 /* Feature4.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 379BB9B1C380B50019C4CBEB989BAE88;
-			remoteInfo = User;
+			remoteGlobalIDString = 65FC6E1D0D6ED38E74CA0DF5858BACCA;
+			remoteInfo = Feature4;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F7847A0409DD544A46B653A2FA7DAB /* Feature3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature3-dummy.m"; sourceTree = "<group>"; };
-		0AE204134C8CD7AF9CBC23028921A8E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1589F7CCC0B83A266F2C2189A79CCFA9 /* Feature3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature3-Info.plist"; sourceTree = "<group>"; };
-		35644397D4BE6144169E5E1FA9F8750B /* Feature3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature3-prefix.pch"; sourceTree = "<group>"; };
-		3F39BDAA043DFF1A1C9357C7445E2200 /* Feature3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature3.swift; path = Feature3/Classes/Feature3.swift; sourceTree = "<group>"; };
-		4DEAABCC49BB5AFE1D0070E410DDA39F /* Feature3.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature3.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		571462BFE3890973A1CFFB8AD93C92C5 /* FeatureService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeatureService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DDE6212627A6C0CE956F4678F6964F6 /* Feature3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature3-umbrella.h"; sourceTree = "<group>"; };
-		6DB62069D481904578227196B8A9203F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		82B755D8AA7B09C544C0BBA8C3231922 /* User */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = User; path = User.xcodeproj; sourceTree = "<group>"; };
+		0A174A91729885F2EA7DFF5EF4716FAF /* Feature3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Feature3-dummy.m"; sourceTree = "<group>"; };
+		232FB43982B7498AF1B87FF4BC6AD9CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		28D24A405335232CC88A214A4F566A2F /* Feature3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature3.modulemap; sourceTree = "<group>"; };
+		28E0FBD70D721E141D0BE9B0750B2E1F /* Services */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Services; path = Services.xcodeproj; sourceTree = "<group>"; };
+		2B7D108F3550BB60D9EDC1D0C716B36C /* Feature3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature3.xcconfig; sourceTree = "<group>"; };
+		5EC48AC5C342204A33C543042071AB25 /* Feature3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature3-prefix.pch"; sourceTree = "<group>"; };
+		827A32BA396B8FA5728F531E250C3C20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8F3AF6E3CF2B7064A3F0025576332400 /* Feature3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Feature3.framework; path = Feature3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACAED266CA311BE84B9C71E8DDFC53AE /* FeatureService */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FeatureService; path = FeatureService.xcodeproj; sourceTree = "<group>"; };
-		C36E8F2E0AB8F4CAB03C2B1BD53A1BAE /* Feature3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Feature3.modulemap; sourceTree = "<group>"; };
-		DB3BBAE4876B88A1F46F77CE0C65716C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DBCC37BB2ABB9E71AD1BDBDA9AFB1260 /* Feature3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature3.release.xcconfig; sourceTree = "<group>"; };
-		DF59E545B236EA5B3575657D2F6A00E9 /* Feature3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Feature3.debug.xcconfig; sourceTree = "<group>"; };
-		EF5CEC7CA4A1599FC90F36A4C5BE5A89 /* User.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = User.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CE77664AAFAABB64F512B509770435 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA240E71E5B3F06BB7A884107C2799EB /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C118097951DB7C7256E1700C3C017E1A /* Feature3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Feature3-umbrella.h"; sourceTree = "<group>"; };
+		C928DA500487709F0CC3E16CA1DB8634 /* Feature3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Feature3-Info.plist"; sourceTree = "<group>"; };
+		CC48FD86211B66A032A63B6388BAB333 /* Feature4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA667FEEAD4337C3ECE588BD920DC2F /* Feature3.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Feature3.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D89FF2EF08002DD569A9D1287EA08F20 /* Feature3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature3.swift; path = Feature3/Classes/Feature3.swift; sourceTree = "<group>"; };
+		DEE108406CD49B67F6A5933A85867061 /* Feature4 */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Feature4; path = Feature4.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE8B01799DC34158C409A490F7E7CA47 /* Frameworks */ = {
+		EB861F094B8F646EDB45D8EA5EC9F525 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A508BD881DD3E79415FB7F32FDE4C4 /* FeatureService.framework in Frameworks */,
-				4F0AD00F578D74029CA0632E3B862938 /* Foundation.framework in Frameworks */,
-				0EA2F4A4A50BB45F110845C78B099A48 /* User.framework in Frameworks */,
+				099B5595D253D841E58BCFC6EF5920A1 /* Feature4.framework in Frameworks */,
+				DCC7FF460AC7B1735D611D414BA4C1E8 /* Foundation.framework in Frameworks */,
+				95A7ED1221B6ABF8DFC7F528DE077713 /* Services.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B3AE9EF78B088421D2554B000E0F2BE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				571462BFE3890973A1CFFB8AD93C92C5 /* FeatureService.framework */,
-				EF5CEC7CA4A1599FC90F36A4C5BE5A89 /* User.framework */,
-				54E90201619B2FCDE6749F6E32D97625 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		38096329997492837E28D4BBF2B04E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,65 +73,74 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B45BACD13061963EC5857ACE3CA3F2E /* Dependencies */ = {
+		49AC17A0F0922E0B7B907A9AFC993235 /* Feature3 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAED266CA311BE84B9C71E8DDFC53AE /* FeatureService */,
-				82B755D8AA7B09C544C0BBA8C3231922 /* User */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		54E90201619B2FCDE6749F6E32D97625 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0AE204134C8CD7AF9CBC23028921A8E2 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		56A081328AF09D7374ED1F7DC0BB9C94 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C36E8F2E0AB8F4CAB03C2B1BD53A1BAE /* Feature3.modulemap */,
-				08F7847A0409DD544A46B653A2FA7DAB /* Feature3-dummy.m */,
-				1589F7CCC0B83A266F2C2189A79CCFA9 /* Feature3-Info.plist */,
-				35644397D4BE6144169E5E1FA9F8750B /* Feature3-prefix.pch */,
-				5DDE6212627A6C0CE956F4678F6964F6 /* Feature3-umbrella.h */,
-				DF59E545B236EA5B3575657D2F6A00E9 /* Feature3.debug.xcconfig */,
-				DBCC37BB2ABB9E71AD1BDBDA9AFB1260 /* Feature3.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../Pods/Target Support Files/Feature3";
-			sourceTree = "<group>";
-		};
-		D5509A5B0F097717E5AF8D86546103D8 /* Feature3 */ = {
-			isa = PBXGroup;
-			children = (
-				3F39BDAA043DFF1A1C9357C7445E2200 /* Feature3.swift */,
-				D9EFB32446F3D4AC22E1E9FDA93D2919 /* Pod */,
-				56A081328AF09D7374ED1F7DC0BB9C94 /* Support Files */,
+				D89FF2EF08002DD569A9D1287EA08F20 /* Feature3.swift */,
+				B85DBB824B15E6670FC0D049F3919A72 /* Pod */,
+				4AD2783AA3C5F7297B4353EDD79290FD /* Support Files */,
 			);
 			name = Feature3;
 			path = ../DI/DevPods/Feature3;
 			sourceTree = "<group>";
 		};
-		D9EFB32446F3D4AC22E1E9FDA93D2919 /* Pod */ = {
+		4AD2783AA3C5F7297B4353EDD79290FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DEAABCC49BB5AFE1D0070E410DDA39F /* Feature3.podspec */,
-				6DB62069D481904578227196B8A9203F /* LICENSE */,
-				DB3BBAE4876B88A1F46F77CE0C65716C /* README.md */,
+				28D24A405335232CC88A214A4F566A2F /* Feature3.modulemap */,
+				2B7D108F3550BB60D9EDC1D0C716B36C /* Feature3.xcconfig */,
+				0A174A91729885F2EA7DFF5EF4716FAF /* Feature3-dummy.m */,
+				C928DA500487709F0CC3E16CA1DB8634 /* Feature3-Info.plist */,
+				5EC48AC5C342204A33C543042071AB25 /* Feature3-prefix.pch */,
+				C118097951DB7C7256E1700C3C017E1A /* Feature3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Feature3";
+			sourceTree = "<group>";
+		};
+		B85DBB824B15E6670FC0D049F3919A72 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEA667FEEAD4337C3ECE588BD920DC2F /* Feature3.podspec */,
+				827A32BA396B8FA5728F531E250C3C20 /* LICENSE */,
+				A6CE77664AAFAABB64F512B509770435 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		CC5D25A531A0A4A601EA18462A495AC9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				232FB43982B7498AF1B87FF4BC6AD9CA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF2CEF3A1F983893160312A4C5F6AD3E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				DEE108406CD49B67F6A5933A85867061 /* Feature4 */,
+				28E0FBD70D721E141D0BE9B0750B2E1F /* Services */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		DE25CD4171B3C3C02F59EEC33C6ED381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC48FD86211B66A032A63B6388BAB333 /* Feature4.framework */,
+				AA240E71E5B3F06BB7A884107C2799EB /* Services.framework */,
+				CC5D25A531A0A4A601EA18462A495AC9 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FA3417A41BCE588E63F0BDC6AC4E02A4 = {
 			isa = PBXGroup;
 			children = (
-				3B45BACD13061963EC5857ACE3CA3F2E /* Dependencies */,
-				D5509A5B0F097717E5AF8D86546103D8 /* Feature3 */,
-				0B3AE9EF78B088421D2554B000E0F2BE /* Frameworks */,
+				CF2CEF3A1F983893160312A4C5F6AD3E /* Dependencies */,
+				49AC17A0F0922E0B7B907A9AFC993235 /* Feature3 */,
+				DE25CD4171B3C3C02F59EEC33C6ED381 /* Frameworks */,
 				38096329997492837E28D4BBF2B04E0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,11 +148,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06C066C3C95589783FD14001E2C9D502 /* Headers */ = {
+		F3356ACDAF54B7D042F8112B7FF208D8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F2F9E3E0CA51B7A5981B8536B6B0DE /* Feature3-umbrella.h in Headers */,
+				B25CF142C6FCC5E61F5AD3FC0DDCA166 /* Feature3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,18 +161,18 @@
 /* Begin PBXNativeTarget section */
 		2B875189275F4E8F9C31DD2441253C3E /* Feature3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4594D31ABEAA977F5994FDBF449EE9 /* Build configuration list for PBXNativeTarget "Feature3" */;
+			buildConfigurationList = 5B465C1161BF25C803A5B85586980769 /* Build configuration list for PBXNativeTarget "Feature3" */;
 			buildPhases = (
-				06C066C3C95589783FD14001E2C9D502 /* Headers */,
-				7AD35AA02AAFD13CDAED6A6D1B1F03CD /* Sources */,
-				EE8B01799DC34158C409A490F7E7CA47 /* Frameworks */,
-				DC6786EC94474D18E5DCFBC864D20FBE /* Resources */,
+				F3356ACDAF54B7D042F8112B7FF208D8 /* Headers */,
+				2AC17304A10570CBB60CC255B2ED501C /* Sources */,
+				EB861F094B8F646EDB45D8EA5EC9F525 /* Frameworks */,
+				DB0E2A9D45DB4D161C8B67D03F68AA65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A94108A4A6B681AFF6ECE8EDBB096A79 /* PBXTargetDependency */,
-				1CF14DCCB8883E14575DDD0DDA89D401 /* PBXTargetDependency */,
+				E9A406EFFAAA5BFD49A59BF18BDC10D6 /* PBXTargetDependency */,
+				1C3C580831564E80563A8D04DE0226AA /* PBXTargetDependency */,
 			);
 			name = Feature3;
 			productName = Feature3;
@@ -203,10 +201,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 82B755D8AA7B09C544C0BBA8C3231922 /* User */;
+					ProjectRef = DEE108406CD49B67F6A5933A85867061 /* Feature4 */;
 				},
 				{
-					ProjectRef = ACAED266CA311BE84B9C71E8DDFC53AE /* FeatureService */;
+					ProjectRef = 28E0FBD70D721E141D0BE9B0750B2E1F /* Services */;
 				},
 			);
 			projectRoot = "";
@@ -217,7 +215,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC6786EC94474D18E5DCFBC864D20FBE /* Resources */ = {
+		DB0E2A9D45DB4D161C8B67D03F68AA65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,34 +225,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7AD35AA02AAFD13CDAED6A6D1B1F03CD /* Sources */ = {
+		2AC17304A10570CBB60CC255B2ED501C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A1E09477BA46368FAF17A20AFDE0CE /* Feature3-dummy.m in Sources */,
-				D9DB2AC8BB5F66DB670CDA402FDE0167 /* Feature3.swift in Sources */,
+				7820CF6505A24C9C1D2D8BA19C942B92 /* Feature3-dummy.m in Sources */,
+				C291E8E57A2588FD3335C82950C9ED94 /* Feature3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CF14DCCB8883E14575DDD0DDA89D401 /* PBXTargetDependency */ = {
+		1C3C580831564E80563A8D04DE0226AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = User;
-			targetProxy = E7D9ABCE93A448B8C7C2BDBF07D3FAB1 /* PBXContainerItemProxy */;
+			name = Services;
+			targetProxy = 40A9AC18551ACAF0507F5569BE52662A /* PBXContainerItemProxy */;
 		};
-		A94108A4A6B681AFF6ECE8EDBB096A79 /* PBXTargetDependency */ = {
+		E9A406EFFAAA5BFD49A59BF18BDC10D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FeatureService;
-			targetProxy = C6DEFAADAFF3F2C9FEB7BAB5A932BD94 /* PBXContainerItemProxy */;
+			name = Feature4;
+			targetProxy = CE7ED0F6704519B65EAF0D3AD7D77F58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15CB69E3E278F9B4A58F49EE42092BB5 /* Debug */ = {
+		431655D43E9D404965E958C07FD904D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF59E545B236EA5B3575657D2F6A00E9 /* Feature3.debug.xcconfig */;
+			baseConfigurationReference = 2B7D108F3550BB60D9EDC1D0C716B36C /* Feature3.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -288,9 +286,9 @@
 			};
 			name = Debug;
 		};
-		4735DDFECFF244ECA4CC395EE0C3DB99 /* Release */ = {
+		6D1E63FF6D62009B37FF32483D4559A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBCC37BB2ABB9E71AD1BDBDA9AFB1260 /* Feature3.release.xcconfig */;
+			baseConfigurationReference = 2B7D108F3550BB60D9EDC1D0C716B36C /* Feature3.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -452,11 +450,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D4594D31ABEAA977F5994FDBF449EE9 /* Build configuration list for PBXNativeTarget "Feature3" */ = {
+		5B465C1161BF25C803A5B85586980769 /* Build configuration list for PBXNativeTarget "Feature3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15CB69E3E278F9B4A58F49EE42092BB5 /* Debug */,
-				4735DDFECFF244ECA4CC395EE0C3DB99 /* Release */,
+				431655D43E9D404965E958C07FD904D9 /* Debug */,
+				6D1E63FF6D62009B37FF32483D4559A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

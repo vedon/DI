@@ -20,7 +20,7 @@
   },
   "source_files": "Feature2/Classes/**/*",
   "dependencies": {
-    "FeatureService": [
+    "Services": [
 
     ]
   },

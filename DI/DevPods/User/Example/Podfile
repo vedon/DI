@@ -1,6 +1,0 @@
-use_frameworks!
-target 'User_Tests' do
-  pod 'User', :path => '../'
-  
-  
-end

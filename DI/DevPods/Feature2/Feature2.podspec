@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Feature2/Classes/**/*'
-  s.dependency 'FeatureService'
+  s.dependency 'Services'
   
   # s.resource_bundles = {
   #   'Feature2' => ['Feature2/Assets/*.png']
@@ -43,8 +43,8 @@ TODO: Add long description of the pod here.
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files = 'Feature2/Tests/**/*.{swift}'
 #    test_spec.requires_app_host = true
-    s.dependency 'FeatureService'
-    s.dependency 'DIAppContext'
+    s.dependency 'Services'
+#    s.dependency 'DIAppContext'
   end
   
 end

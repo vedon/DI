@@ -1,3 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Feature2/Feature2-Unit-Tests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework
-${BUILT_PRODUCTS_DIR}/FeatureService/FeatureService.framework
+${BUILT_PRODUCTS_DIR}/Services/Services.framework

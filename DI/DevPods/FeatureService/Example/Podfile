@@ -1,6 +1,0 @@
-use_frameworks!
-target 'FeatureService_Tests' do
-  pod 'FeatureService', :path => '../'
-  
-  
-end

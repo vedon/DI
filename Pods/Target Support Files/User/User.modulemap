@@ -1,6 +1,0 @@
-framework module User {
-  umbrella header "User-umbrella.h"
-
-  export *
-  module * { export * }
-}
