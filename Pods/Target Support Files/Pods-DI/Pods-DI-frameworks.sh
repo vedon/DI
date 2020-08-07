@@ -197,6 +197,7 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DIAppContext/DIAppContext.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DIContainer/DIContainer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework"
@@ -207,6 +208,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/UserSession/UserSession.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DIAppContext/DIAppContext.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DIContainer/DIContainer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature1/Feature1.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Feature2/Feature2.framework"

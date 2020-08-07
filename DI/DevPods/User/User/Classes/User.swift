@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import DIContainer
 
 public protocol User {
     var isLogin: Bool { get }

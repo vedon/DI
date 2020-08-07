@@ -16,12 +16,19 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "Feature2/Classes/**/*",
   "dependencies": {
     "FeatureService": [
 
     ]
-  }
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Feature2/Tests/**/*.{swift}"
+    }
+  ]
 }

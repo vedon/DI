@@ -1,25 +1,35 @@
 PODS:
+  - DIAppContext (0.1.0):
+    - DIContainer
   - DIContainer (0.1.0):
+    - Feature1
+    - Feature2
+    - Feature3
+    - FeatureService
     - Swinject
+    - User
+    - UserSession
   - Feature1 (0.1.0):
     - FeatureService
   - Feature2 (0.1.0):
     - FeatureService
+  - Feature2/Tests (0.1.0):
+    - FeatureService
   - Feature3 (0.1.0):
     - FeatureService
     - User
-  - FeatureService (0.1.0):
-    - DIContainer
+  - FeatureService (0.1.0)
   - Swinject (2.7.1)
-  - User (0.1.0):
-    - DIContainer
+  - User (0.1.0)
   - UserSession (0.1.0):
     - User
 
 DEPENDENCIES:
+  - DIAppContext (from `./DI/DevPods/DIAppContext`)
   - DIContainer (from `./DI/DevPods/DIContainer/`)
   - Feature1 (from `./DI/DevPods/Feature1/`)
   - Feature2 (from `./DI/DevPods/Feature2/`)
+  - Feature2/Tests (from `./DI/DevPods/Feature2/`)
   - Feature3 (from `./DI/DevPods/Feature3/`)
   - FeatureService (from `./DI/DevPods/FeatureService/`)
   - User (from `./DI/DevPods/User/`)
@@ -30,6 +40,8 @@ SPEC REPOS:
     - Swinject
 
 EXTERNAL SOURCES:
+  DIAppContext:
+    :path: "./DI/DevPods/DIAppContext"
   DIContainer:
     :path: "./DI/DevPods/DIContainer/"
   Feature1:
@@ -46,15 +58,16 @@ EXTERNAL SOURCES:
     :path: "./DI/DevPods/UserSession/"
 
 SPEC CHECKSUMS:
-  DIContainer: 89562c15a0318502213d2d2fc722b029137095c7
-  Feature1: f4b47f17825ad07c1c2421cfe7ef054be3acc229
-  Feature2: 207c38cd5c3cb78724ca90e1bb830d375f1dee40
-  Feature3: d8a93784f17fe0fa86b82c62dcac4d40965f98cb
-  FeatureService: 6c853799adea69d5980a4cc7e8c4a342233b0546
+  DIAppContext: 86817ba51862e78b39367e0b8fa2d1c33b49dc8c
+  DIContainer: 620e3e683f2352a9b80d20d1b082695591b364e2
+  Feature1: 0331eda37a13f331a8ddc96ebea17b24f044ade0
+  Feature2: 1f079e6e5c1cd2933bb9f40b0eb0fedaf99529f7
+  Feature3: b027e0f018ec604fcc8ae2927d4b0b12841da98a
+  FeatureService: fcf5317fe77fcbfc3334bf4445cc03ef61eda697
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
-  User: cb10d9247b420ffd5f233565d131561173ff6431
-  UserSession: f7b1a417bdc5580dcff6e7fda533080c402b5d85
+  User: f9ccb777e090fa05c2d949ed36422c69a547aa3a
+  UserSession: 8ae818c068d1a7ed7bacc32f9fc0f1f1e290cf0a
 
-PODFILE CHECKSUM: 2e7a2c155d8e34aabc5a9fa93f26e111fbe66732
+PODFILE CHECKSUM: 86d46a50f3d76365a8b2035d2bddc93a9ca6a94b
 
 COCOAPODS: 1.9.1

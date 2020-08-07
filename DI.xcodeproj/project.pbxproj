@@ -15,7 +15,6 @@
 		4E0FBDCB2487D54400D88CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FBDCA2487D54400D88CE6 /* Assets.xcassets */; };
 		4E0FBDCE2487D54400D88CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FBDCC2487D54400D88CE6 /* LaunchScreen.storyboard */; };
 		4E0FBDD92487D54500D88CE6 /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FBDD82487D54500D88CE6 /* DITests.swift */; };
-		4EE5A11D248E0ACE00003BEF /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5A11C248E0ACE00003BEF /* AppContext.swift */; };
 		E626300E9B99ECD131F86087 /* Pods_DITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B988855563222BEF0A4DD4 /* Pods_DITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		4E0FBDD42487D54500D88CE6 /* DITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0FBDD82487D54500D88CE6 /* DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DITests.swift; sourceTree = "<group>"; };
 		4E0FBDDA2487D54500D88CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EE5A11C248E0ACE00003BEF /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 		66B988855563222BEF0A4DD4 /* Pods_DITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B264987B4E5FAA91CF177DF /* Pods-DI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DI.debug.xcconfig"; path = "Target Support Files/Pods-DI/Pods-DI.debug.xcconfig"; sourceTree = "<group>"; };
 		766BE870BFD6FB2E2002E3AD /* Pods_DI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +109,6 @@
 				4E0FBDCA2487D54400D88CE6 /* Assets.xcassets */,
 				4E0FBDCC2487D54400D88CE6 /* LaunchScreen.storyboard */,
 				4E0FBDCF2487D54400D88CE6 /* Info.plist */,
-				4EE5A11C248E0ACE00003BEF /* AppContext.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -303,7 +300,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E0FBDC62487D54300D88CE6 /* ViewController.swift in Sources */,
-				4EE5A11D248E0ACE00003BEF /* AppContext.swift in Sources */,
 				4E0FBDC22487D54200D88CE6 /* AppDelegate.swift in Sources */,
 				4E0FBDC42487D54300D88CE6 /* SceneDelegate.swift in Sources */,
 			);

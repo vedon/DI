@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/vedon/DIContainer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'DIContainer/Classes/**/*'
   
@@ -39,4 +39,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Swinject'
+  s.dependency 'UserSession'
+  s.dependency 'Feature1'
+  s.dependency 'Feature2'
+  s.dependency 'Feature3'
+  
+  s.dependency 'FeatureService'
+  s.dependency 'User'
 end

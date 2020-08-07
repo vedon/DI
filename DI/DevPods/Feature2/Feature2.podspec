@@ -28,14 +28,23 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/vedon/Feature2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'Feature2/Classes/**/*'
+  s.dependency 'FeatureService'
+  
   # s.resource_bundles = {
   #   'Feature2' => ['Feature2/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'FeatureService'
+   
+  s.test_spec 'Tests' do |test_spec|
+    test_spec.source_files = 'Feature2/Tests/**/*.{swift}'
+#    test_spec.requires_app_host = true
+    s.dependency 'FeatureService'
+    s.dependency 'DIAppContext'
+  end
+  
 end

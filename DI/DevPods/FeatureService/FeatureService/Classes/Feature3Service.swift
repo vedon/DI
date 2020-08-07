@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import DIContainer
 
 public protocol Feature3Service {
     func doSomething()

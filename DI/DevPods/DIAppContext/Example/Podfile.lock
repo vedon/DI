@@ -1,0 +1,16 @@
+PODS:
+  - DIAppLauncher (0.1.0)
+
+DEPENDENCIES:
+  - DIAppLauncher (from `../`)
+
+EXTERNAL SOURCES:
+  DIAppLauncher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DIAppLauncher: 75db0c71c5003b127edecf98a9a508bb58437940
+
+PODFILE CHECKSUM: 1ff2db4d778f073f8099985bc2cb76aed604fd32
+
+COCOAPODS: 1.9.1
