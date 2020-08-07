@@ -18,8 +18,8 @@ public final class AnyInitializer {
             return function()
         }
     }
-
-    public init<D, T>(_ function: @escaping (D) -> T) {
+    //fix: Ambiguous use of 'init(_:)'
+    public init<D, T>(singleDependency function: @escaping (D) -> T) {
         resolve = { container in
             let d: D = container.resolve(D.self)!
             return function(d)
