@@ -7,10 +7,13 @@
 
 import Foundation
 import Swinject
-import User
 import Feature1
 import Feature2
 import Feature3
+import UserSession
+
+import User
+import FeatureService
 
 class Binder {
     func bind(_ container: Container) {

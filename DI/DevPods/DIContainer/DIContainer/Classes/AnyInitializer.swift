@@ -9,7 +9,7 @@ import Foundation
 import Swinject
 
 public final class AnyInitializer {
-    private let resolve:(_ container: DIContainer) -> Any
+    private let resolve:(_ container: Container) -> Any
     
     public init<D>(_ function: @escaping () -> D) {
         resolve = { _ in
@@ -62,7 +62,7 @@ public final class AnyInitializer {
         }
     }
     
-    public func resolve<T>(by container: DIContainer) -> T {
+    public func resolve<T>(by container: Container) -> T {
         guard let o = resolve(container) as? T else {
             fatalError()
         }

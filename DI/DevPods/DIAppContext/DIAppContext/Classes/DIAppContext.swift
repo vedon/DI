@@ -7,8 +7,6 @@
 
 import Foundation
 import DIContainer
-import FeatureService
-import UserSession
 
 public class DIAppContext {
     public let container: DIContainer

@@ -19,10 +19,7 @@ public class DIContainer {
         binder.bind(internalContainer)
     }
     
-    
-    public func resolve<Service>(_ serviceType: Service) -> Service? {
-//        let dependencies: Service = AnyInitializer(serviceType).resolve(by: internalContainer)
-//        return dependencies
-        return nil;
+    public func resolve<T>(with initialzer: AnyInitializer) -> T {
+        return initialzer.resolve(by: internalContainer)
     }
 }
