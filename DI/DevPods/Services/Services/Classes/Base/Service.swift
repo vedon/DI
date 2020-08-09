@@ -16,9 +16,6 @@ public protocol ServiceDebugable: NSObject {
 }
 
 extension ServiceDebugable {
-    func debugQuickLookObject() -> Any? {
-        
-    }
 }
 
 public extension Service {

@@ -14,6 +14,6 @@ public class Feature1 {
 
 extension Feature1: ServiceA {
     public func doSomething() {
-        print("ServiceB protocol implementation by feature1")
+        print("ServiceA protocol implementation by feature1")
     }
 }

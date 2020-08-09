@@ -25,3 +25,7 @@ extension DIContainer: Resolver {
         internalContainer.resolve(serviceType)
     }
 }
+
+extension Container: Resolver {
+    
+}

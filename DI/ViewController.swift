@@ -9,7 +9,8 @@
 import UIKit
 import DIAppContext
 import DIContainer
-import Feature4
+import Feature3
+import Services
 
 class ViewController: UIViewController {
 
@@ -18,10 +19,8 @@ class ViewController: UIViewController {
         
         let container = DIAppContext().container
         
-        let dependencies: Feature4.Dependencies = AnyInitializer(Feature4.Dependencies.init).resolve(by: container)
-        
-        let feature4 = Feature4(dependencies: dependencies)
-        feature4.doSomething()
+        let serviceCImp = container.resolve(ServiceC.self)
+        serviceCImp!.doSomething()
         // Do any additional setup after loading the view.
     }
 }

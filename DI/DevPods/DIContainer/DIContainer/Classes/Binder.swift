@@ -25,8 +25,10 @@ class Binder {
         }
         
         container.register(ServiceC.self) { (resolver) -> ServiceC in
-            let sb = resolver.resolve(ServiceB.self)!
-            return Feature3.init(sb)
+            let dependencies: Feature3.Dependencies = AnyInitializer(Feature3.Dependencies.init).resolve(by: container)
+            
+            return Feature3(dependencies: dependencies)
         }
     }
 }
+
