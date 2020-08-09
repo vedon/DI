@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import DIAppContext
+import AppContext
 import DIContainer
 import Feature3
 import Services
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let container = DIAppContext().container
+        let container = AppContext().container
         
         let serviceCImp = container.resolve(ServiceC.self)
         serviceCImp!.doSomething()

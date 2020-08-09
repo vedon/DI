@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint Feature4.podspec' to ensure this is a
+# Be sure to run `pod lib lint AppContext.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Feature4'
+  s.name             = 'AppContext'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Feature4.'
+  s.summary          = 'A short description of AppContext.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/vedon/Feature4'
+  s.homepage         = 'https://github.com/vedon/AppContext'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vedon' => 'fuweidong@bytedance.com' }
-  s.source           = { :git => 'https://github.com/vedon/Feature4.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vedon/AppContext.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Feature4/Classes/**/*'
-  s.public_header_files = 'Feature4/Public/**/*'
+  s.source_files = 'AppContext/Classes/**/*'
+  
   # s.resource_bundles = {
-  #   'Feature4' => ['Feature4/Assets/*.png']
+  #   'AppContext' => ['AppContext/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Services'
+  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'DIContainer'
 end

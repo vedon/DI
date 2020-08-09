@@ -1,9 +1,9 @@
 {
-  "name": "Feature4",
+  "name": "AppContext",
   "version": "0.1.0",
-  "summary": "A short description of Feature4.",
+  "summary": "A short description of AppContext.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/vedon/Feature4",
+  "homepage": "https://github.com/vedon/AppContext",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,15 @@
     "vedon": "fuweidong@bytedance.com"
   },
   "source": {
-    "git": "https://github.com/vedon/Feature4.git",
+    "git": "https://github.com/vedon/AppContext.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Feature4/Classes/**/*",
-  "public_header_files": "Feature4/Public/**/*",
+  "source_files": "AppContext/Classes/**/*",
   "dependencies": {
-    "Services": [
+    "DIContainer": [
 
     ]
   }

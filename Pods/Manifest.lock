@@ -1,5 +1,5 @@
 PODS:
-  - DIAppContext (0.1.0):
+  - AppContext (0.1.0):
     - DIContainer
   - DIContainer (0.1.0):
     - Feature1
@@ -22,7 +22,7 @@ PODS:
   - Swinject (2.7.1)
 
 DEPENDENCIES:
-  - DIAppContext (from `./DI/DevPods/DIAppContext`)
+  - AppContext (from `./DI/DevPods/AppContext`)
   - DIContainer (from `./DI/DevPods/DIContainer/`)
   - Feature1 (from `./DI/DevPods/Feature1/`)
   - Feature2 (from `./DI/DevPods/Feature2/`)
@@ -37,8 +37,8 @@ SPEC REPOS:
     - Swinject
 
 EXTERNAL SOURCES:
-  DIAppContext:
-    :path: "./DI/DevPods/DIAppContext"
+  AppContext:
+    :path: "./DI/DevPods/AppContext"
   DIContainer:
     :path: "./DI/DevPods/DIContainer/"
   Feature1:
@@ -53,15 +53,15 @@ EXTERNAL SOURCES:
     :path: "./DI/DevPods/Services/"
 
 SPEC CHECKSUMS:
-  DIAppContext: 86817ba51862e78b39367e0b8fa2d1c33b49dc8c
+  AppContext: a1968dbf55a9f0b7f51ae552900750194387e1b3
   DIContainer: 9f772620ecfc46532d19e8dd80a0185ba123f04d
   Feature1: 5e73e94f621c63d91d41f3bed5ea07d37f084e41
   Feature2: 0c5b1cf8edc19af64bcc79210232e927f1317c40
   Feature3: 377fe12b9db9a86fbab7f1d1a2e3227ef57423d9
-  Feature4: 77345397e4f45bd0cc1f67da1e0cad143c8d8431
+  Feature4: 6361aba0456678edf65f7367d534c9ff63960eae
   Services: d02359f7a9b4f506373cf5fc9dd56439134276a0
   Swinject: a2a70ceb43117f16c99e4bd6012ddc74fc41e0cb
 
-PODFILE CHECKSUM: 5b36b29ca631ac154888d49795bc39604fe2556f
+PODFILE CHECKSUM: 85166f20a02b4cbee2356088c5c1211b5ad5952a
 
 COCOAPODS: 1.9.1

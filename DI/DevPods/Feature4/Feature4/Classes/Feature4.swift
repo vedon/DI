@@ -8,5 +8,7 @@
 import Foundation
 
 public class Feature4 {
-    
+    public func fuck() {
+        
+    }
 }

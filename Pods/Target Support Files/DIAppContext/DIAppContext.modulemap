@@ -1,6 +1,0 @@
-framework module DIAppContext {
-  umbrella header "DIAppContext-umbrella.h"
-
-  export *
-  module * { export * }
-}

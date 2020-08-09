@@ -1,6 +1,0 @@
-framework module DIAppLauncher {
-  umbrella header "DIAppLauncher-umbrella.h"
-
-  export *
-  module * { export * }
-}

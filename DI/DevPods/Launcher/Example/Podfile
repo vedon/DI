@@ -1,6 +1,0 @@
-use_frameworks!
-target 'Launcher_Tests' do
-  pod 'Launcher', :path => '../'
-  
-  
-end

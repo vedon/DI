@@ -6,7 +6,7 @@ target 'DI' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'DIAppContext', :path=> './DI/DevPods/DIAppContext'
+  pod 'AppContext', :path=> './DI/DevPods/AppContext'
   pod 'Services',    :path => './DI/DevPods/Services/'
   
   pod 'Feature1',    :path => './DI/DevPods/Feature1/'
