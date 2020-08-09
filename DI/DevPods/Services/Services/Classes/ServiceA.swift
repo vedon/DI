@@ -2,11 +2,11 @@
 //  Feature1Service.swift
 //  DICoordinator
 //
-//  Created by vedon on 2020/6/8.
+//  Created by vedon on 2020/8/8.
 //
 
 import Foundation
 
-public protocol ServiceA {
+public protocol ServiceA: Service {
     func doSomething()
 }

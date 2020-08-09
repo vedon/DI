@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000F357CA3C6BA1A1960E12842D1ED77 /* DIAppContext-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F232419762565EA7EB9D47F854D54FAF /* DIAppContext-dummy.m */; };
-		226D3CD06B5A505EC697DB681272BF1F /* DIAppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BAE84A61FFB32947B7165B6D3F86FE /* DIAppContext.swift */; };
+		000F357CA3C6BA1A1960E12842D1ED77 /* DIAppContext-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC418BA6F9ED370BD39C482D070B1EF /* DIAppContext-dummy.m */; };
+		226D3CD06B5A505EC697DB681272BF1F /* DIAppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FE9CAAB482CA9AE10CE191A8E47C96 /* DIAppContext.swift */; };
 		6BA32A681CE3B12E79EBAA351F51D74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BBFE372F1B56D5DBF494306E3D2D0 /* Foundation.framework */; };
-		87F3746DC793D6D19F7378F175730244 /* DIAppContext-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5D0F0D38E3BE1084D703F5D55D6691 /* DIAppContext-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F3746DC793D6D19F7378F175730244 /* DIAppContext-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB371DA859A7551747B1C5B33885CDD8 /* DIAppContext-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B29D3A1F87A280729857EFD030BD6276 /* DIContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1703F6DE1C5E1321E41327E93D003FF3 /* DIContainer.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,17 +28,18 @@
 		08CBC97526F0E9948FD30407A15E3EC0 /* DIContainer */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DIContainer; path = DIContainer.xcodeproj; sourceTree = "<group>"; };
 		094BBFE372F1B56D5DBF494306E3D2D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0FE480685348DB77C4998CC8E2C152CA /* DIAppContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DIAppContext.framework; path = DIAppContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13D47ABBBE5CE17C08575886EC70E604 /* DIAppContext.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DIAppContext.modulemap; sourceTree = "<group>"; };
 		1703F6DE1C5E1321E41327E93D003FF3 /* DIContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DIContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D5D0F0D38E3BE1084D703F5D55D6691 /* DIAppContext-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DIAppContext-umbrella.h"; sourceTree = "<group>"; };
-		356BC1541E3F0E994B7551DC652FF833 /* DIAppContext-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DIAppContext-prefix.pch"; sourceTree = "<group>"; };
-		4F0BD62946CA6F311B1A14963D8048B6 /* DIAppContext-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DIAppContext-Info.plist"; sourceTree = "<group>"; };
-		7433D965B808711C8169E363FDB7DFF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AB239D017F55BB3BA79A62DCA27095AA /* DIAppContext.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DIAppContext.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBFAD4D393D1ABF3C084678EFFE0FA4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F232419762565EA7EB9D47F854D54FAF /* DIAppContext-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DIAppContext-dummy.m"; sourceTree = "<group>"; };
-		F3BAE84A61FFB32947B7165B6D3F86FE /* DIAppContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DIAppContext.swift; path = DIAppContext/Classes/DIAppContext.swift; sourceTree = "<group>"; };
-		FF8894BBBEB493D0F6487A4F880A5C17 /* DIAppContext.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DIAppContext.xcconfig; sourceTree = "<group>"; };
+		38CA3361D0A32607E2399B82A60EEDC6 /* DIAppContext-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DIAppContext-Info.plist"; sourceTree = "<group>"; };
+		40A66D1750C6A7E72750E9CBD74C2925 /* DIAppContext.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DIAppContext.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4477A05C04456A5E6EF34D81694B3EDD /* DIAppContext.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DIAppContext.modulemap; sourceTree = "<group>"; };
+		5DC418BA6F9ED370BD39C482D070B1EF /* DIAppContext-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DIAppContext-dummy.m"; sourceTree = "<group>"; };
+		6A9B986FA15C6804E9AA00E195D822B4 /* DIAppContext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DIAppContext.release.xcconfig; sourceTree = "<group>"; };
+		6DE13A7C73C27F0133D5FD8F1DB3911D /* DIAppContext-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DIAppContext-prefix.pch"; sourceTree = "<group>"; };
+		77FE9CAAB482CA9AE10CE191A8E47C96 /* DIAppContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DIAppContext.swift; path = DIAppContext/Classes/DIAppContext.swift; sourceTree = "<group>"; };
+		843242A82BD085D695EF5219FDFC7F59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C404964C31B27DC1E376C774834CEDB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CA201663ADEEE8F14F0D730A991DA348 /* DIAppContext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DIAppContext.debug.xcconfig; sourceTree = "<group>"; };
+		CB371DA859A7551747B1C5B33885CDD8 /* DIAppContext-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DIAppContext-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,25 +55,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		81A996CAFBAC784AAF625DF65E54C30B /* DIAppContext */ = {
+		70439CCB0863DEA4FE9C4E2883A9DE48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F3BAE84A61FFB32947B7165B6D3F86FE /* DIAppContext.swift */,
-				8BE4F7FA3ADA0595D467F7F01D593410 /* Pod */,
-				8FA5451B2330F70BD7BDD3CCAC80E652 /* Support Files */,
+				4477A05C04456A5E6EF34D81694B3EDD /* DIAppContext.modulemap */,
+				5DC418BA6F9ED370BD39C482D070B1EF /* DIAppContext-dummy.m */,
+				38CA3361D0A32607E2399B82A60EEDC6 /* DIAppContext-Info.plist */,
+				6DE13A7C73C27F0133D5FD8F1DB3911D /* DIAppContext-prefix.pch */,
+				CB371DA859A7551747B1C5B33885CDD8 /* DIAppContext-umbrella.h */,
+				CA201663ADEEE8F14F0D730A991DA348 /* DIAppContext.debug.xcconfig */,
+				6A9B986FA15C6804E9AA00E195D822B4 /* DIAppContext.release.xcconfig */,
 			);
-			name = DIAppContext;
-			path = ../DI/DevPods/DIAppContext;
-			sourceTree = "<group>";
-		};
-		8BE4F7FA3ADA0595D467F7F01D593410 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AB239D017F55BB3BA79A62DCA27095AA /* DIAppContext.podspec */,
-				7433D965B808711C8169E363FDB7DFF0 /* LICENSE */,
-				BBFAD4D393D1ABF3C084678EFFE0FA4C /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/DIAppContext";
 			sourceTree = "<group>";
 		};
 		8C987A8DA3F269CB59A4EE0C1D8A62CA /* Frameworks */ = {
@@ -84,25 +79,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8FA5451B2330F70BD7BDD3CCAC80E652 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				13D47ABBBE5CE17C08575886EC70E604 /* DIAppContext.modulemap */,
-				FF8894BBBEB493D0F6487A4F880A5C17 /* DIAppContext.xcconfig */,
-				F232419762565EA7EB9D47F854D54FAF /* DIAppContext-dummy.m */,
-				4F0BD62946CA6F311B1A14963D8048B6 /* DIAppContext-Info.plist */,
-				356BC1541E3F0E994B7551DC652FF833 /* DIAppContext-prefix.pch */,
-				1D5D0F0D38E3BE1084D703F5D55D6691 /* DIAppContext-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../../../Pods/Target Support Files/DIAppContext";
-			sourceTree = "<group>";
-		};
 		BD5F83F1AC6623B04BE87335307435FD = {
 			isa = PBXGroup;
 			children = (
 				BE365B20E7838148DF56576FE7F511C2 /* Dependencies */,
-				81A996CAFBAC784AAF625DF65E54C30B /* DIAppContext */,
+				FCFAA3E9FE011A47CF99591E1B947B12 /* DIAppContext */,
 				8C987A8DA3F269CB59A4EE0C1D8A62CA /* Frameworks */,
 				E34C84061016F38C0BD8B4B0D3133C70 /* Products */,
 			);
@@ -130,6 +111,27 @@
 				0FE480685348DB77C4998CC8E2C152CA /* DIAppContext.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFAA3E9FE011A47CF99591E1B947B12 /* DIAppContext */ = {
+			isa = PBXGroup;
+			children = (
+				77FE9CAAB482CA9AE10CE191A8E47C96 /* DIAppContext.swift */,
+				FDE7C4D0EF2DB2708E34350782C077CC /* Pod */,
+				70439CCB0863DEA4FE9C4E2883A9DE48 /* Support Files */,
+			);
+			name = DIAppContext;
+			path = ../DI/DevPods/DIAppContext;
+			sourceTree = "<group>";
+		};
+		FDE7C4D0EF2DB2708E34350782C077CC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				40A66D1750C6A7E72750E9CBD74C2925 /* DIAppContext.podspec */,
+				C404964C31B27DC1E376C774834CEDB6 /* LICENSE */,
+				843242A82BD085D695EF5219FDFC7F59 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,45 +230,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7F4C99B9A7D058B1682A112CE1B1345E /* Debug */ = {
+		0CAE9EAB40845D451303372A2665C1BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF8894BBBEB493D0F6487A4F880A5C17 /* DIAppContext.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DIAppContext/DIAppContext-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DIAppContext/DIAppContext-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DIAppContext/DIAppContext.modulemap";
-				PRODUCT_MODULE_NAME = DIAppContext;
-				PRODUCT_NAME = DIAppContext;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		86C2A74999125D138186855ABA3880AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF8894BBBEB493D0F6487A4F880A5C17 /* DIAppContext.xcconfig */;
+			baseConfigurationReference = 6A9B986FA15C6804E9AA00E195D822B4 /* DIAppContext.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -361,6 +327,42 @@
 			};
 			name = Release;
 		};
+		EA9507C848DB9031AE8879048F3B70FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA201663ADEEE8F14F0D730A991DA348 /* DIAppContext.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DIAppContext/DIAppContext-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DIAppContext/DIAppContext-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DIAppContext/DIAppContext.modulemap";
+				PRODUCT_MODULE_NAME = DIAppContext;
+				PRODUCT_NAME = DIAppContext;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F8F8197BAC6D9D9275016453A0A16F76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,8 +442,8 @@
 		DEB4810A292DF4903F7618906C04A13A /* Build configuration list for PBXNativeTarget "DIAppContext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F4C99B9A7D058B1682A112CE1B1345E /* Debug */,
-				86C2A74999125D138186855ABA3880AC /* Release */,
+				EA9507C848DB9031AE8879048F3B70FE /* Debug */,
+				0CAE9EAB40845D451303372A2665C1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

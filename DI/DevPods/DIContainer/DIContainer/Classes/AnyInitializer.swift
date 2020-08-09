@@ -2,7 +2,7 @@
 //  AnyInitializer.swift
 //  DIresolver
 //
-//  Created by vedon on 2020/8/7.
+//  Created by vedon on 2020/8/8.
 //
 
 import Foundation

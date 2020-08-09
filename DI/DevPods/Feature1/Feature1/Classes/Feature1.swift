@@ -2,7 +2,7 @@
 //  Feature1.swift
 //  Feature1
 //
-//  Created by vedon on 2020/6/7.
+//  Created by vedon on 2020/8/8.
 //
 
 import Foundation
@@ -14,6 +14,6 @@ public class Feature1 {
 
 extension Feature1: ServiceA {
     public func doSomething() {
-        print("Feature1 do something")
+        print("ServiceB protocol implementation by feature1")
     }
 }

@@ -2,12 +2,11 @@
 //  ServiceB.swift
 //  ServiceB
 //
-//  Created by vedon on 2020/6/7.
+//  Created by vedon on 2020/8/8.
 //
 
 import Foundation
 
-public protocol ServiceB {
-    var isLogin: Bool { get }
-    func login();
+public protocol ServiceB: Service {
+    func doSomething()
 }

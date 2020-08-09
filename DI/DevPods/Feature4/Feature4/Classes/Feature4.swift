@@ -2,7 +2,7 @@
 //  User.swift
 //  User
 //
-//  Created by vedon on 2020/6/9.
+//  Created by vedon on 2020/8/8.
 //
 
 import Foundation
@@ -20,13 +20,12 @@ public class Feature4 {
     }
     
     private let dependencies: Feature4.Dependencies
-    
     public init(dependencies: Feature4.Dependencies) {
         self.dependencies = dependencies
     }
     
     public func doSomething() {
-        print("Feature2 do something")
+        print("Calling ServceA and ServiceB in feature4 via dependency injection")
         dependencies.serviceA.doSomething()
         dependencies.serviceC.doSomething()
     }

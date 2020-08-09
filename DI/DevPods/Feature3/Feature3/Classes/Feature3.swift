@@ -2,7 +2,7 @@
 //  Feature3.swift
 //  Feature3
 //
-//  Created by vedon on 2020/6/7.
+//  Created by vedon on 2020/8/8.
 //
 
 import Foundation
@@ -18,10 +18,8 @@ public class Feature3 {
 
 extension Feature3: ServiceC {
     public func doSomething() {
-        print("Feature3 do something")
+        print("ServiceB protocol implementation by feature3")
         
-        if serviceB.isLogin == false {
-           serviceB.login()
-        }
+        serviceB.doSomething()
     }
 }
